@@ -1,7 +1,7 @@
-<h1 align="center">UR-Haskell - Readme</h1>
+<h1 align="center">UR-LoldleSolver - Readme</h1>
 <p align="center">
   <strong>
-    Solutions to Haskell exercises from my studies at <a href="https://www.ur.edu.pl/pl/kolegia/kolegium-nauk-przyrodniczych">University of Rzeszów (UR)</a>
+    Project from my studies at <a href="https://www.ur.edu.pl/pl/kolegia/kolegium-nauk-przyrodniczych">University of Rzeszów (UR)</a>
   </strong>
 </p>
 <div align="center">
@@ -12,14 +12,14 @@
 
 <br>
 
-<!--
+
 ## Table of Contents
 - [About](#about)
 - [Technologies](#technologies)
 - [Key learnings](#key-learnings)
 - [Copyright](#copyright)
 
-<br>-->
+<br>
 
 ## About :dart:
 These are my solutions to laboratory exercises carried out as part of the course "Języki i paradygmaty programowania" (Programming languages ​​and paradigms) in the Computer Science program at UR. 
