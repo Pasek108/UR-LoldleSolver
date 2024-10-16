@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <div class="column">
+      <h2>Generate champion data</h2>
+
+      <input type="text" name="champion-name" id="champion-name" placeholder="champion name" />
+      <textarea name="champion-data" id="champion-data" wrap="off" placeholder="champion data"></textarea>
+
+      <button id="generate-champion">Generate champion</button>
+      <button id="generate-all-champions">Generate all champions</button>
+
+      <textarea name="fluent-data" id="fluent-data" wrap="off" placeholder="result for fluent"></textarea>
+    </div>
+
+    <div class="column" style="min-width: 40.5rem">
+      <h2>Guessed champions data</h2>
+
+      <textarea name="guessed-champions-data" id="guessed-champions-data" wrap="off" placeholder="guessed champions data"></textarea>
+      <button id="add-champion">Add champions</button>
+
+      <div class="guessed-champions"></div>
+    </div>
+
+    <div class="column">
+      <h2>Generate query</h2>
+      <button id="generate-reasoner">Generate reasoner</button>
+      <button id="generate-sparql">Generate SPARQL</button>
+
+      <textarea name="query" id="query" wrap="off" placeholder="generated query"></textarea>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

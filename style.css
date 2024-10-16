@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input,
+button,
+textarea {
+  width: 100%;
+  padding: 0.25rem 0.5rem;
+  border: 1px solid black;
+  border-radius: 0.125rem;
+}
+
+textarea {
+  flex-grow: 1;
+  padding: 0.5rem;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e2e2e2;
+}
+
+h2 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.25rem;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 1rem;
+  width: 100vw;
+  height: 100vh;
+  padding: 2rem;
+  margin: 0;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 0.5rem;
+  width: 30%;
+}
+
+#all-champions {
+  flex-grow: 1;
+}
+
+.guessed-champions {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  width: 100%;
+  height: 70%;
+  overflow-y: scroll;
+}
+
+.guessed-champion {
+  display: flex;
+  gap: 0.25rem;
+  height: fit-content;
+}
+
+.guessed-champion > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 5rem;
+  max-width: 5rem;
+  aspect-ratio: 1;
+  border: 1px solid black;
+  overflow: hidden;
+  line-break: anywhere;
+  word-break: break-all;
+  text-align: center;
+  word-wrap: break-word;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  user-select: none;
+  cursor: pointer;
+}
+
+.guessed-champion > div.correct {
+  background-color: #3fe436;
+}
+
+.guessed-champion > div.partialy {
+  background-color: #f5d222;
+}
+
+.guessed-champion > div.incorrect {
+  background-color: #fc2929;
+}
+
+.guessed-champion > div.release.correct {
+  background-color: #3fe436;
+
+  &:after {
+    content: "✅";
+  }
+}
+
+.guessed-champion > div.release.partialy {
+  background-color: #fc2929;
+
+  &::after {
+    content: "⬇️";
+  }
+}
+
+.guessed-champion > div.release.incorrect {
+  background-color: #fc2929;
+
+  &::after {
+    content: "⬆️";
+  }
+}
+
+.guessed-champion .delete {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-top: 1.25rem;
+  border: 1px solid black;
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: white;
+  background-color: #dc0303;
+}

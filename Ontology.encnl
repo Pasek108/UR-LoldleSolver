@@ -1,0 +1,1763 @@
+﻿Title: 'League of legends'.
+Author: 'Artur Pas'.
+Namespace: 'http://ontorion.com/namespace'.
+
+Comment:
+---------------- Gender ----------------.
+Male is a gender.
+Female is a gender.
+Other is a gender.
+
+Comment:
+---------------- Position ----------------.
+Top is a position.
+Middle is a position.
+Support is a position.
+Jungle is a position.
+Bottom is a position.
+
+Comment:
+---------------- Species ----------------.
+Darkin is a species.
+Vastayan is a species.
+Human is a species.
+Minotaur is a species.
+Undead is a species.
+Yordle is a species.
+God is a species.
+Spirit is a species.
+Magicborn is a species.
+Spiritualist is a species.
+Iceborn is a species.
+Celestial is a species.
+Dragon is a species.
+God-Warrior is a species.
+Void-Being is a species.
+Golem is a species.
+Magically-Altered is a species.
+Cyborg is a species.
+Aspect is a species.
+Chemically-Altered is a species.
+Demon is a species.
+Yeti is a species.
+Unknown is a species.
+Revenant is a species.
+Dog is a species.
+Brackern is a species.
+Troll is a species.
+Rat is a species.
+Cat is a species.
+
+Comment:
+---------------- Resource ----------------.
+Manaless is a resource.
+Mana is a resource.
+Energy is a resource.
+Health-Costs is a resource.
+Rage is a resource.
+Courage is a resource.
+Shield is a resource.
+Fury is a resource.
+Ferocity is a resource.
+Heat is a resource.
+Grit is a resource.
+Bloodthirst is a resource.
+Flow is a resource.
+
+Comment:
+---------------- Range-Type ----------------.
+Melee is a range-type.
+Ranged is a range-type.
+
+Comment:
+---------------- Region ----------------.
+Runeterra is a region.
+Shurima is a region.
+Ionia is a region.
+Freljord is a region.
+Noxus is a region.
+Targon is a region.
+Void is a region.
+Zaun is a region.
+Piltover is a region.
+Bandle-City is a region.
+Shadow-Isles is a region.
+Demacia is a region.
+Bilgewater is a region.
+Camavor is a region.
+Icathia is a region.
+Ixtal is a region.
+
+Comment:
+---------------- Champions ----------------.
+Aatrox is a champion.
+Aatrox has-gender Male.
+Aatrox plays-in Top.
+Aatrox has-species Darkin.
+Aatrox uses-resource Manaless.
+Aatrox has-range-type Melee.
+Aatrox belongs-to Runeterra and belongs-to Shurima.
+Aatrox released-in equal-to 2013.
+Aatrox has-importance equal-to 7.
+
+Ahri is a champion.
+Ahri has-gender Female.
+Ahri plays-in Middle.
+Ahri has-species Vastayan.
+Ahri uses-resource Mana.
+Ahri has-range-type Ranged.
+Ahri belongs-to Ionia.
+Ahri released-in equal-to 2011.
+Ahri has-importance equal-to 6.
+
+Akali is a champion.
+Akali has-gender Female.
+Akali plays-in Middle and plays-in Top.
+Akali has-species Human.
+Akali uses-resource Energy.
+Akali has-range-type Melee.
+Akali belongs-to Ionia.
+Akali released-in equal-to 2010.
+Akali has-importance equal-to 7.
+
+Akshan is a champion.
+Akshan has-gender Male.
+Akshan plays-in Middle.
+Akshan has-species Human.
+Akshan uses-resource Mana.
+Akshan has-range-type Ranged.
+Akshan belongs-to Shurima.
+Akshan released-in equal-to 2021.
+Akshan has-importance equal-to 6.
+
+Alistar is a champion.
+Alistar has-gender Male.
+Alistar plays-in Support.
+Alistar has-species Minotaur.
+Alistar uses-resource Mana.
+Alistar has-range-type Melee.
+Alistar belongs-to Runeterra.
+Alistar released-in equal-to 2009.
+Alistar has-importance equal-to 6.
+
+Amumu is a champion.
+Amumu has-gender Male.
+Amumu plays-in Jungle.
+Amumu has-species Undead and has-species Yordle.
+Amumu uses-resource Mana.
+Amumu has-range-type Melee.
+Amumu belongs-to Shurima.
+Amumu released-in equal-to 2009.
+Amumu has-importance equal-to 7.
+
+Anivia is a champion.
+Anivia has-gender Female.
+Anivia plays-in Middle.
+Anivia has-species God and has-species Spirit.
+Anivia uses-resource Mana.
+Anivia has-range-type Ranged.
+Anivia belongs-to Freljord.
+Anivia released-in equal-to 2009.
+Anivia has-importance equal-to 7.
+
+Annie is a champion.
+Annie has-gender Female.
+Annie plays-in Middle.
+Annie has-species Human and has-species Magicborn.
+Annie uses-resource Mana.
+Annie has-range-type Ranged.
+Annie belongs-to Noxus and belongs-to Runeterra.
+Annie released-in equal-to 2009.
+Annie has-importance equal-to 8.
+
+Aphelios is a champion.
+Aphelios has-gender Male.
+Aphelios plays-in Bottom.
+Aphelios has-species Human and has-species Spiritualist.
+Aphelios uses-resource Mana.
+Aphelios has-range-type Ranged.
+Aphelios belongs-to Targon.
+Aphelios released-in equal-to 2019.
+Aphelios has-importance equal-to 7.
+
+Ashe is a champion.
+Ashe has-gender Female.
+Ashe plays-in Bottom.
+Ashe has-species Human and has-species Iceborn.
+Ashe uses-resource Mana.
+Ashe has-range-type Ranged.
+Ashe belongs-to Freljord.
+Ashe released-in equal-to 2009.
+Ashe has-importance equal-to 7.
+
+Aurelion-Sol is a champion.
+Aurelion-Sol has-gender Male.
+Aurelion-Sol plays-in Middle.
+Aurelion-Sol has-species Celestial and has-species Dragon.
+Aurelion-Sol uses-resource Mana.
+Aurelion-Sol has-range-type Ranged.
+Aurelion-Sol belongs-to Runeterra and belongs-to Targon.
+Aurelion-Sol released-in equal-to 2016.
+Aurelion-Sol has-importance equal-to 8.
+
+Azir is a champion.
+Azir has-gender Male.
+Azir plays-in Middle.
+Azir has-species God-Warrior.
+Azir uses-resource Mana.
+Azir has-range-type Ranged.
+Azir belongs-to Shurima.
+Azir released-in equal-to 2014.
+Azir has-importance equal-to 6.
+
+Bard is a champion.
+Bard has-gender Male.
+Bard plays-in Support.
+Bard has-species Celestial.
+Bard uses-resource Mana.
+Bard has-range-type Ranged.
+Bard belongs-to Runeterra.
+Bard released-in equal-to 2015.
+Bard has-importance equal-to 6.
+
+Bel-Veth is a champion.
+Bel-Veth has-gender Female.
+Bel-Veth plays-in Jungle.
+Bel-Veth has-species Void-Being.
+Bel-Veth uses-resource Manaless.
+Bel-Veth has-range-type Melee.
+Bel-Veth belongs-to Void.
+Bel-Veth released-in equal-to 2022.
+Bel-Veth has-importance equal-to 6.
+
+Blitzcrank is a champion.
+Blitzcrank has-gender Other.
+Blitzcrank plays-in Support.
+Blitzcrank has-species Golem.
+Blitzcrank uses-resource Mana.
+Blitzcrank has-range-type Melee.
+Blitzcrank belongs-to Zaun.
+Blitzcrank released-in equal-to 2009.
+Blitzcrank has-importance equal-to 6.
+
+Brand is a champion.
+Brand has-gender Male.
+Brand plays-in Jungle and plays-in Middle and plays-in Support.
+Brand has-species Human and has-species Magically-Altered.
+Brand uses-resource Mana.
+Brand has-range-type Ranged.
+Brand belongs-to Freljord and belongs-to Runeterra.
+Brand released-in equal-to 2011.
+Brand has-importance equal-to 10.
+
+Braum is a champion.
+Braum has-gender Male.
+Braum plays-in Support.
+Braum has-species Human and has-species Iceborn.
+Braum uses-resource Mana.
+Braum has-range-type Melee.
+Braum belongs-to Freljord.
+Braum released-in equal-to 2014.
+Braum has-importance equal-to 7.
+
+Briar is a champion.
+Briar has-gender Female.
+Briar plays-in Jungle.
+Briar has-species Golem.
+Briar uses-resource Health-Costs.
+Briar has-range-type Melee.
+Briar belongs-to Noxus.
+Briar released-in equal-to 2023.
+Briar has-importance equal-to 6.
+
+Caitlyn is a champion.
+Caitlyn has-gender Female.
+Caitlyn plays-in Bottom.
+Caitlyn has-species Human.
+Caitlyn uses-resource Mana.
+Caitlyn has-range-type Ranged.
+Caitlyn belongs-to Piltover.
+Caitlyn released-in equal-to 2011.
+Caitlyn has-importance equal-to 6.
+
+Camille is a champion.
+Camille has-gender Female.
+Camille plays-in Top.
+Camille has-species Cyborg and has-species Human.
+Camille uses-resource Mana.
+Camille has-range-type Melee.
+Camille belongs-to Piltover.
+Camille released-in equal-to 2016.
+Camille has-importance equal-to 7.
+
+Cassiopeia is a champion.
+Cassiopeia has-gender Female.
+Cassiopeia plays-in Middle and plays-in Top.
+Cassiopeia has-species Human and has-species Magically-Altered.
+Cassiopeia uses-resource Mana.
+Cassiopeia has-range-type Ranged.
+Cassiopeia belongs-to Noxus and belongs-to Shurima.
+Cassiopeia released-in equal-to 2010.
+Cassiopeia has-importance equal-to 9.
+
+Cho-Gath is a champion.
+Cho-Gath has-gender Male.
+Cho-Gath plays-in Top.
+Cho-Gath has-species Void-Being.
+Cho-Gath uses-resource Mana.
+Cho-Gath has-range-type Melee.
+Cho-Gath belongs-to Void.
+Cho-Gath released-in equal-to 2009.
+Cho-Gath has-importance equal-to 6.
+
+Corki is a champion.
+Corki has-gender Male.
+Corki plays-in Bottom and plays-in Middle.
+Corki has-species Yordle.
+Corki uses-resource Mana.
+Corki has-range-type Ranged.
+Corki belongs-to Bandle-City and belongs-to Piltover.
+Corki released-in equal-to 2009.
+Corki has-importance equal-to 8.
+
+Darius is a champion.
+Darius has-gender Male.
+Darius plays-in Top.
+Darius has-species Human.
+Darius uses-resource Mana.
+Darius has-range-type Melee.
+Darius belongs-to Noxus.
+Darius released-in equal-to 2012.
+Darius has-importance equal-to 6.
+
+Diana is a champion.
+Diana has-gender Female.
+Diana plays-in Jungle and plays-in Middle.
+Diana has-species Aspect and has-species Human.
+Diana uses-resource Mana.
+Diana has-range-type Melee.
+Diana belongs-to Targon.
+Diana released-in equal-to 2012.
+Diana has-importance equal-to 8.
+
+Dr-Mundo is a champion.
+Dr-Mundo has-gender Male.
+Dr-Mundo plays-in Top.
+Dr-Mundo has-species Chemically-Altered and has-species Human.
+Dr-Mundo uses-resource Health-Costs.
+Dr-Mundo has-range-type Melee.
+Dr-Mundo belongs-to Zaun.
+Dr-Mundo released-in equal-to 2009.
+Dr-Mundo has-importance equal-to 7.
+
+Draven is a champion.
+Draven has-gender Male.
+Draven plays-in Bottom.
+Draven has-species Human.
+Draven uses-resource Mana.
+Draven has-range-type Ranged.
+Draven belongs-to Noxus.
+Draven released-in equal-to 2012.
+Draven has-importance equal-to 6.
+
+Ekko is a champion.
+Ekko has-gender Male.
+Ekko plays-in Jungle and plays-in Middle.
+Ekko has-species Human.
+Ekko uses-resource Mana.
+Ekko has-range-type Melee.
+Ekko belongs-to Zaun.
+Ekko released-in equal-to 2015.
+Ekko has-importance equal-to 7.
+
+Elise is a champion.
+Elise has-gender Female.
+Elise plays-in Jungle.
+Elise has-species Human and has-species Magically-Altered.
+Elise uses-resource Mana.
+Elise has-range-type Melee and has-range-type Ranged.
+Elise belongs-to Noxus and belongs-to Shadow-Isles.
+Elise released-in equal-to 2012.
+Elise has-importance equal-to 9.
+
+Evelynn is a champion.
+Evelynn has-gender Female.
+Evelynn plays-in Jungle.
+Evelynn has-species Demon and has-species Spirit.
+Evelynn uses-resource Mana.
+Evelynn has-range-type Melee.
+Evelynn belongs-to Runeterra.
+Evelynn released-in equal-to 2009.
+Evelynn has-importance equal-to 7.
+
+Ezreal is a champion.
+Ezreal has-gender Male.
+Ezreal plays-in Bottom.
+Ezreal has-species Human and has-species Magicborn.
+Ezreal uses-resource Mana.
+Ezreal has-range-type Ranged.
+Ezreal belongs-to Piltover.
+Ezreal released-in equal-to 2010.
+Ezreal has-importance equal-to 7.
+
+Fiddlesticks is a champion.
+Fiddlesticks has-gender Other.
+Fiddlesticks plays-in Jungle.
+Fiddlesticks has-species Demon and has-species Spirit.
+Fiddlesticks uses-resource Mana.
+Fiddlesticks has-range-type Ranged.
+Fiddlesticks belongs-to Runeterra.
+Fiddlesticks released-in equal-to 2009.
+Fiddlesticks has-importance equal-to 7.
+
+Fiora is a champion.
+Fiora has-gender Female.
+Fiora plays-in Top.
+Fiora has-species Human.
+Fiora uses-resource Mana.
+Fiora has-range-type Melee.
+Fiora belongs-to Demacia.
+Fiora released-in equal-to 2012.
+Fiora has-importance equal-to 6.
+
+Fizz is a champion.
+Fizz has-gender Male.
+Fizz plays-in Middle.
+Fizz has-species Yordle.
+Fizz uses-resource Mana.
+Fizz has-range-type Melee.
+Fizz belongs-to Bilgewater.
+Fizz released-in equal-to 2011.
+Fizz has-importance equal-to 6.
+
+Miss-Fortune is a champion.
+Miss-Fortune has-gender Female.
+Miss-Fortune plays-in Bottom.
+Miss-Fortune has-species Human.
+Miss-Fortune uses-resource Mana.
+Miss-Fortune has-range-type Ranged.
+Miss-Fortune belongs-to Bilgewater.
+Miss-Fortune released-in equal-to 2010.
+Miss-Fortune has-importance equal-to 6.
+
+Twisted-Fate is a champion.
+Twisted-Fate has-gender Male.
+Twisted-Fate plays-in Middle and plays-in Top.
+Twisted-Fate has-species Human and has-species Magicborn.
+Twisted-Fate uses-resource Mana.
+Twisted-Fate has-range-type Ranged.
+Twisted-Fate belongs-to Bilgewater.
+Twisted-Fate released-in equal-to 2009.
+Twisted-Fate has-importance equal-to 8.
+
+Galio is a champion.
+Galio has-gender Male.
+Galio plays-in Middle.
+Galio has-species Golem.
+Galio uses-resource Mana.
+Galio has-range-type Melee.
+Galio belongs-to Demacia.
+Galio released-in equal-to 2010.
+Galio has-importance equal-to 6.
+
+Gangplank is a champion.
+Gangplank has-gender Male.
+Gangplank plays-in Top.
+Gangplank has-species Human.
+Gangplank uses-resource Mana.
+Gangplank has-range-type Melee.
+Gangplank belongs-to Bilgewater.
+Gangplank released-in equal-to 2009.
+Gangplank has-importance equal-to 6.
+
+Garen is a champion.
+Garen has-gender Male.
+Garen plays-in Top.
+Garen has-species Human.
+Garen uses-resource Manaless.
+Garen has-range-type Melee.
+Garen belongs-to Demacia.
+Garen released-in equal-to 2010.
+Garen has-importance equal-to 6.
+
+Gnar is a champion.
+Gnar has-gender Male.
+Gnar plays-in Top.
+Gnar has-species Yordle.
+Gnar uses-resource Rage.
+Gnar has-range-type Melee and has-range-type Ranged.
+Gnar belongs-to Freljord.
+Gnar released-in equal-to 2014.
+Gnar has-importance equal-to 7.
+
+Gragas is a champion.
+Gragas has-gender Male.
+Gragas plays-in Jungle and plays-in Top.
+Gragas has-species Human and has-species Iceborn.
+Gragas uses-resource Mana.
+Gragas has-range-type Melee.
+Gragas belongs-to Freljord.
+Gragas released-in equal-to 2010.
+Gragas has-importance equal-to 8.
+
+Graves is a champion.
+Graves has-gender Male.
+Graves plays-in Jungle.
+Graves has-species Human.
+Graves uses-resource Mana.
+Graves has-range-type Ranged.
+Graves belongs-to Bilgewater.
+Graves released-in equal-to 2011.
+Graves has-importance equal-to 6.
+
+Gwen is a champion.
+Gwen has-gender Female.
+Gwen plays-in Top.
+Gwen has-species Human and has-species Magically-Altered.
+Gwen uses-resource Mana.
+Gwen has-range-type Melee.
+Gwen belongs-to Camavor and belongs-to Shadow-Isles.
+Gwen released-in equal-to 2021.
+Gwen has-importance equal-to 8.
+
+Renata-Glasc is a champion.
+Renata-Glasc has-gender Female.
+Renata-Glasc plays-in Support.
+Renata-Glasc has-species Chemically-Altered and has-species Human.
+Renata-Glasc uses-resource Mana.
+Renata-Glasc has-range-type Ranged.
+Renata-Glasc belongs-to Zaun.
+Renata-Glasc released-in equal-to 2022.
+Renata-Glasc has-importance equal-to 7.
+
+Hecarim is a champion.
+Hecarim has-gender Male.
+Hecarim plays-in Jungle.
+Hecarim has-species Undead.
+Hecarim uses-resource Mana.
+Hecarim has-range-type Melee.
+Hecarim belongs-to Camavor and belongs-to Shadow-Isles.
+Hecarim released-in equal-to 2012.
+Hecarim has-importance equal-to 7.
+
+Heimerdinger is a champion.
+Heimerdinger has-gender Male.
+Heimerdinger plays-in Middle and plays-in Top.
+Heimerdinger has-species Yordle.
+Heimerdinger uses-resource Mana.
+Heimerdinger has-range-type Ranged.
+Heimerdinger belongs-to Piltover.
+Heimerdinger released-in equal-to 2009.
+Heimerdinger has-importance equal-to 7.
+
+Hwei is a champion.
+Hwei has-gender Male.
+Hwei plays-in Middle and plays-in Support.
+Hwei has-species Human and has-species Magicborn.
+Hwei uses-resource Mana.
+Hwei has-range-type Ranged.
+Hwei belongs-to Ionia.
+Hwei released-in equal-to 2023.
+Hwei has-importance equal-to 8.
+
+Illaoi is a champion.
+Illaoi has-gender Female.
+Illaoi plays-in Top.
+Illaoi has-species Human and has-species Spiritualist.
+Illaoi uses-resource Mana.
+Illaoi has-range-type Melee.
+Illaoi belongs-to Bilgewater.
+Illaoi released-in equal-to 2015.
+Illaoi has-importance equal-to 7.
+
+Irelia is a champion.
+Irelia has-gender Female.
+Irelia plays-in Middle and plays-in Top.
+Irelia has-species Human and has-species Spiritualist.
+Irelia uses-resource Mana.
+Irelia has-range-type Melee.
+Irelia belongs-to Ionia.
+Irelia released-in equal-to 2010.
+Irelia has-importance equal-to 8.
+
+Ivern is a champion.
+Ivern has-gender Male.
+Ivern plays-in Jungle.
+Ivern has-species Human and has-species Magically-Altered.
+Ivern uses-resource Mana.
+Ivern has-range-type Ranged.
+Ivern belongs-to Freljord and belongs-to Ionia.
+Ivern released-in equal-to 2016.
+Ivern has-importance equal-to 8.
+
+Jarvan-Iv is a champion.
+Jarvan-Iv has-gender Male.
+Jarvan-Iv plays-in Jungle.
+Jarvan-Iv has-species Human.
+Jarvan-Iv uses-resource Mana.
+Jarvan-Iv has-range-type Melee.
+Jarvan-Iv belongs-to Demacia.
+Jarvan-Iv released-in equal-to 2011.
+Jarvan-Iv has-importance equal-to 6.
+
+Nunu-I-Willump is a champion.
+Nunu-I-Willump has-gender Male.
+Nunu-I-Willump plays-in Jungle.
+Nunu-I-Willump has-species Human and has-species Yeti.
+Nunu-I-Willump uses-resource Mana.
+Nunu-I-Willump has-range-type Melee.
+Nunu-I-Willump belongs-to Freljord.
+Nunu-I-Willump released-in equal-to 2009.
+Nunu-I-Willump has-importance equal-to 7.
+
+Janna is a champion.
+Janna has-gender Female.
+Janna plays-in Support.
+Janna has-species God and has-species Spirit.
+Janna uses-resource Mana.
+Janna has-range-type Ranged.
+Janna belongs-to Shurima and belongs-to Zaun.
+Janna released-in equal-to 2009.
+Janna has-importance equal-to 8.
+
+Jax is a champion.
+Jax has-gender Male.
+Jax plays-in Jungle and plays-in Top.
+Jax has-species Unknown.
+Jax uses-resource Mana.
+Jax has-range-type Melee.
+Jax belongs-to Icathia and belongs-to Runeterra and belongs-to Shurima.
+Jax released-in equal-to 2009.
+Jax has-importance equal-to 9.
+
+Jayce is a champion.
+Jayce has-gender Male.
+Jayce plays-in Middle and plays-in Top.
+Jayce has-species Human.
+Jayce uses-resource Mana.
+Jayce has-range-type Melee and has-range-type Ranged.
+Jayce belongs-to Piltover.
+Jayce released-in equal-to 2012.
+Jayce has-importance equal-to 8.
+
+Jhin is a champion.
+Jhin has-gender Male.
+Jhin plays-in Bottom.
+Jhin has-species Human and has-species Spiritualist.
+Jhin uses-resource Mana.
+Jhin has-range-type Ranged.
+Jhin belongs-to Ionia.
+Jhin released-in equal-to 2016.
+Jhin has-importance equal-to 7.
+
+Jinx is a champion.
+Jinx has-gender Female.
+Jinx plays-in Bottom.
+Jinx has-species Chemically-Altered and has-species Human.
+Jinx uses-resource Mana.
+Jinx has-range-type Ranged.
+Jinx belongs-to Zaun.
+Jinx released-in equal-to 2013.
+Jinx has-importance equal-to 7.
+
+K-Sante is a champion.
+K-Sante has-gender Male.
+K-Sante plays-in Top.
+K-Sante has-species Human.
+K-Sante uses-resource Mana.
+K-Sante has-range-type Melee.
+K-Sante belongs-to Shurima.
+K-Sante released-in equal-to 2022.
+K-Sante has-importance equal-to 6.
+
+Kai-Sa is a champion.
+Kai-Sa has-gender Female.
+Kai-Sa plays-in Bottom.
+Kai-Sa has-species Human and has-species Void-Being.
+Kai-Sa uses-resource Mana.
+Kai-Sa has-range-type Ranged.
+Kai-Sa belongs-to Shurima and belongs-to Void.
+Kai-Sa released-in equal-to 2018.
+Kai-Sa has-importance equal-to 8.
+
+Kalista is a champion.
+Kalista has-gender Female.
+Kalista plays-in Bottom.
+Kalista has-species Undead.
+Kalista uses-resource Mana.
+Kalista has-range-type Ranged.
+Kalista belongs-to Camavor and belongs-to Shadow-Isles.
+Kalista released-in equal-to 2014.
+Kalista has-importance equal-to 7.
+
+Karma is a champion.
+Karma has-gender Female.
+Karma plays-in Support.
+Karma has-species Human and has-species Spiritualist.
+Karma uses-resource Mana.
+Karma has-range-type Ranged.
+Karma belongs-to Ionia.
+Karma released-in equal-to 2011.
+Karma has-importance equal-to 7.
+
+Karthus is a champion.
+Karthus has-gender Male.
+Karthus plays-in Jungle.
+Karthus has-species Undead.
+Karthus uses-resource Mana.
+Karthus has-range-type Ranged.
+Karthus belongs-to Noxus and belongs-to Shadow-Isles.
+Karthus released-in equal-to 2009.
+Karthus has-importance equal-to 7.
+
+Kassadin is a champion.
+Kassadin has-gender Male.
+Kassadin plays-in Middle.
+Kassadin has-species Human and has-species Void-Being.
+Kassadin uses-resource Mana.
+Kassadin has-range-type Melee.
+Kassadin belongs-to Shurima and belongs-to Void.
+Kassadin released-in equal-to 2009.
+Kassadin has-importance equal-to 8.
+
+Katarina is a champion.
+Katarina has-gender Female.
+Katarina plays-in Middle.
+Katarina has-species Human.
+Katarina uses-resource Manaless.
+Katarina has-range-type Melee.
+Katarina belongs-to Noxus.
+Katarina released-in equal-to 2009.
+Katarina has-importance equal-to 6.
+
+Kayle is a champion.
+Kayle has-gender Female.
+Kayle plays-in Top.
+Kayle has-species Aspect and has-species Human and has-species Magically-Altered.
+Kayle uses-resource Mana.
+Kayle has-range-type Melee and has-range-type Ranged.
+Kayle belongs-to Demacia and belongs-to Targon.
+Kayle released-in equal-to 2009.
+Kayle has-importance equal-to 10.
+
+Kayn is a champion.
+Kayn has-gender Male.
+Kayn plays-in Jungle.
+Kayn has-species Darkin and has-species Human and has-species Magically-Altered.
+Kayn uses-resource Mana.
+Kayn has-range-type Melee.
+Kayn belongs-to Ionia and belongs-to Noxus and belongs-to Runeterra and belongs-to Shurima.
+Kayn released-in equal-to 2017.
+Kayn has-importance equal-to 11.
+
+Kennen is a champion.
+Kennen has-gender Male.
+Kennen plays-in Top.
+Kennen has-species Yordle.
+Kennen uses-resource Energy.
+Kennen has-range-type Ranged.
+Kennen belongs-to Ionia.
+Kennen released-in equal-to 2010.
+Kennen has-importance equal-to 6.
+
+Kha-Zix is a champion.
+Kha-Zix has-gender Male.
+Kha-Zix plays-in Jungle.
+Kha-Zix has-species Void-Being.
+Kha-Zix uses-resource Mana.
+Kha-Zix has-range-type Melee.
+Kha-Zix belongs-to Void.
+Kha-Zix released-in equal-to 2012.
+Kha-Zix has-importance equal-to 6.
+
+Kindred is a champion.
+Kindred has-gender Other.
+Kindred plays-in Jungle.
+Kindred has-species God and has-species Spirit.
+Kindred uses-resource Mana.
+Kindred has-range-type Ranged.
+Kindred belongs-to Runeterra.
+Kindred released-in equal-to 2015.
+Kindred has-importance equal-to 7.
+
+Kled is a champion.
+Kled has-gender Male.
+Kled plays-in Top.
+Kled has-species Yordle.
+Kled uses-resource Courage.
+Kled has-range-type Melee.
+Kled belongs-to Noxus.
+Kled released-in equal-to 2016.
+Kled has-importance equal-to 6.
+
+Kog-Maw is a champion.
+Kog-Maw has-gender Male.
+Kog-Maw plays-in Bottom.
+Kog-Maw has-species Void-Being.
+Kog-Maw uses-resource Mana.
+Kog-Maw has-range-type Ranged.
+Kog-Maw belongs-to Void.
+Kog-Maw released-in equal-to 2010.
+Kog-Maw has-importance equal-to 6.
+
+Tahm-Kench is a champion.
+Tahm-Kench has-gender Male.
+Tahm-Kench plays-in Support and plays-in Top.
+Tahm-Kench has-species Demon and has-species Spirit.
+Tahm-Kench uses-resource Mana.
+Tahm-Kench has-range-type Melee.
+Tahm-Kench belongs-to Bilgewater and belongs-to Runeterra.
+Tahm-Kench released-in equal-to 2015.
+Tahm-Kench has-importance equal-to 9.
+
+Leblanc is a champion.
+Leblanc has-gender Female.
+Leblanc plays-in Middle.
+Leblanc has-species Human and has-species Magically-Altered.
+Leblanc uses-resource Mana.
+Leblanc has-range-type Ranged.
+Leblanc belongs-to Noxus.
+Leblanc released-in equal-to 2010.
+Leblanc has-importance equal-to 7.
+
+Lee-Sin is a champion.
+Lee-Sin has-gender Male.
+Lee-Sin plays-in Jungle.
+Lee-Sin has-species Human and has-species Spiritualist.
+Lee-Sin uses-resource Energy.
+Lee-Sin has-range-type Melee.
+Lee-Sin belongs-to Ionia.
+Lee-Sin released-in equal-to 2011.
+Lee-Sin has-importance equal-to 7.
+
+Leona is a champion.
+Leona has-gender Female.
+Leona plays-in Support.
+Leona has-species Aspect and has-species Human.
+Leona uses-resource Mana.
+Leona has-range-type Melee.
+Leona belongs-to Targon.
+Leona released-in equal-to 2011.
+Leona has-importance equal-to 7.
+
+Lillia is a champion.
+Lillia has-gender Female.
+Lillia plays-in Jungle.
+Lillia has-species Spirit.
+Lillia uses-resource Mana.
+Lillia has-range-type Melee.
+Lillia belongs-to Ionia.
+Lillia released-in equal-to 2020.
+Lillia has-importance equal-to 6.
+
+Lissandra is a champion.
+Lissandra has-gender Female.
+Lissandra plays-in Middle.
+Lissandra has-species Human and has-species Iceborn.
+Lissandra uses-resource Mana.
+Lissandra has-range-type Ranged.
+Lissandra belongs-to Freljord.
+Lissandra released-in equal-to 2013.
+Lissandra has-importance equal-to 7.
+
+Lucian is a champion.
+Lucian has-gender Male.
+Lucian plays-in Bottom.
+Lucian has-species Human.
+Lucian uses-resource Mana.
+Lucian has-range-type Ranged.
+Lucian belongs-to Demacia and belongs-to Shadow-Isles.
+Lucian released-in equal-to 2013.
+Lucian has-importance equal-to 7.
+
+Lulu is a champion.
+Lulu has-gender Female.
+Lulu plays-in Support.
+Lulu has-species Yordle.
+Lulu uses-resource Mana.
+Lulu has-range-type Ranged.
+Lulu belongs-to Bandle-City.
+Lulu released-in equal-to 2012.
+Lulu has-importance equal-to 6.
+
+Lux is a champion.
+Lux has-gender Female.
+Lux plays-in Middle and plays-in Support.
+Lux has-species Human and has-species Magicborn.
+Lux uses-resource Mana.
+Lux has-range-type Ranged.
+Lux belongs-to Demacia.
+Lux released-in equal-to 2010.
+Lux has-importance equal-to 8.
+
+Malphite is a champion.
+Malphite has-gender Male.
+Malphite plays-in Middle and plays-in Top.
+Malphite has-species Golem.
+Malphite uses-resource Mana.
+Malphite has-range-type Melee.
+Malphite belongs-to Ixtal and belongs-to Shurima.
+Malphite released-in equal-to 2009.
+Malphite has-importance equal-to 8.
+
+Malzahar is a champion.
+Malzahar has-gender Male.
+Malzahar plays-in Middle.
+Malzahar has-species Human and has-species Void-Being.
+Malzahar uses-resource Mana.
+Malzahar has-range-type Ranged.
+Malzahar belongs-to Shurima and belongs-to Void.
+Malzahar released-in equal-to 2010.
+Malzahar has-importance equal-to 8.
+
+Maokai is a champion.
+Maokai has-gender Male.
+Maokai plays-in Support.
+Maokai has-species Spirit.
+Maokai uses-resource Mana.
+Maokai has-range-type Melee.
+Maokai belongs-to Shadow-Isles.
+Maokai released-in equal-to 2011.
+Maokai has-importance equal-to 6.
+
+Master-Yi is a champion.
+Master-Yi has-gender Male.
+Master-Yi plays-in Jungle.
+Master-Yi has-species Human and has-species Spiritualist.
+Master-Yi uses-resource Mana.
+Master-Yi has-range-type Melee.
+Master-Yi belongs-to Ionia.
+Master-Yi released-in equal-to 2009.
+Master-Yi has-importance equal-to 7.
+
+Milio is a champion.
+Milio has-gender Male.
+Milio plays-in Support.
+Milio has-species Human and has-species Magicborn.
+Milio uses-resource Mana.
+Milio has-range-type Ranged.
+Milio belongs-to Ixtal.
+Milio released-in equal-to 2023.
+Milio has-importance equal-to 7.
+
+Mordekaiser is a champion.
+Mordekaiser has-gender Male.
+Mordekaiser plays-in Top.
+Mordekaiser has-species Revenant.
+Mordekaiser uses-resource Shield.
+Mordekaiser has-range-type Melee.
+Mordekaiser belongs-to Noxus and belongs-to Shadow-Isles.
+Mordekaiser released-in equal-to 2010.
+Mordekaiser has-importance equal-to 7.
+
+Morgana is a champion.
+Morgana has-gender Female.
+Morgana plays-in Support.
+Morgana has-species Aspect and has-species Human and has-species Magically-Altered.
+Morgana uses-resource Mana.
+Morgana has-range-type Ranged.
+Morgana belongs-to Demacia and belongs-to Targon.
+Morgana released-in equal-to 2009.
+Morgana has-importance equal-to 9.
+
+Naafiri is a champion.
+Naafiri has-gender Female.
+Naafiri plays-in Middle.
+Naafiri has-species Darkin and has-species Dog.
+Naafiri uses-resource Mana.
+Naafiri has-range-type Melee.
+Naafiri belongs-to Shurima.
+Naafiri released-in equal-to 2023.
+Naafiri has-importance equal-to 7.
+
+Nami is a champion.
+Nami has-gender Female.
+Nami plays-in Support.
+Nami has-species Vastayan.
+Nami uses-resource Mana.
+Nami has-range-type Ranged.
+Nami belongs-to Bilgewater and belongs-to Runeterra.
+Nami released-in equal-to 2012.
+Nami has-importance equal-to 7.
+
+Nasus is a champion.
+Nasus has-gender Male.
+Nasus plays-in Top.
+Nasus has-species God-Warrior.
+Nasus uses-resource Mana.
+Nasus has-range-type Melee.
+Nasus belongs-to Shurima.
+Nasus released-in equal-to 2009.
+Nasus has-importance equal-to 6.
+
+Nautilus is a champion.
+Nautilus has-gender Male.
+Nautilus plays-in Support.
+Nautilus has-species Revenant.
+Nautilus uses-resource Mana.
+Nautilus has-range-type Melee.
+Nautilus belongs-to Bilgewater.
+Nautilus released-in equal-to 2012.
+Nautilus has-importance equal-to 6.
+
+Neeko is a champion.
+Neeko has-gender Female.
+Neeko plays-in Middle and plays-in Support.
+Neeko has-species Vastayan.
+Neeko uses-resource Mana.
+Neeko has-range-type Ranged.
+Neeko belongs-to Ixtal.
+Neeko released-in equal-to 2018.
+Neeko has-importance equal-to 7.
+
+Nidalee is a champion.
+Nidalee has-gender Female.
+Nidalee plays-in Jungle.
+Nidalee has-species Human and has-species Spiritualist.
+Nidalee uses-resource Mana.
+Nidalee has-range-type Melee and has-range-type Ranged.
+Nidalee belongs-to Ixtal.
+Nidalee released-in equal-to 2009.
+Nidalee has-importance equal-to 8.
+
+Nilah is a champion.
+Nilah has-gender Female.
+Nilah plays-in Bottom.
+Nilah has-species Human and has-species Magically-Altered.
+Nilah uses-resource Mana.
+Nilah has-range-type Melee.
+Nilah belongs-to Bilgewater.
+Nilah released-in equal-to 2022.
+Nilah has-importance equal-to 7.
+
+Nocturne is a champion.
+Nocturne has-gender Male.
+Nocturne plays-in Jungle.
+Nocturne has-species Demon and has-species Spirit.
+Nocturne uses-resource Mana.
+Nocturne has-range-type Melee.
+Nocturne belongs-to Runeterra.
+Nocturne released-in equal-to 2011.
+Nocturne has-importance equal-to 7.
+
+Olaf is a champion.
+Olaf has-gender Male.
+Olaf plays-in Top.
+Olaf has-species Human and has-species Iceborn.
+Olaf uses-resource Mana.
+Olaf has-range-type Melee.
+Olaf belongs-to Freljord.
+Olaf released-in equal-to 2010.
+Olaf has-importance equal-to 7.
+
+Orianna is a champion.
+Orianna has-gender Female.
+Orianna plays-in Middle.
+Orianna has-species Golem.
+Orianna uses-resource Mana.
+Orianna has-range-type Ranged.
+Orianna belongs-to Piltover.
+Orianna released-in equal-to 2011.
+Orianna has-importance equal-to 6.
+
+Ornn is a champion.
+Ornn has-gender Male.
+Ornn plays-in Top.
+Ornn has-species God and has-species Spirit.
+Ornn uses-resource Mana.
+Ornn has-range-type Melee.
+Ornn belongs-to Freljord.
+Ornn released-in equal-to 2017.
+Ornn has-importance equal-to 7.
+
+Pantheon is a champion.
+Pantheon has-gender Male.
+Pantheon plays-in Support and plays-in Top.
+Pantheon has-species Aspect and has-species Human.
+Pantheon uses-resource Mana.
+Pantheon has-range-type Melee.
+Pantheon belongs-to Targon.
+Pantheon released-in equal-to 2010.
+Pantheon has-importance equal-to 8.
+
+Poppy is a champion.
+Poppy has-gender Female.
+Poppy plays-in Jungle and plays-in Support and plays-in Top.
+Poppy has-species Yordle.
+Poppy uses-resource Mana.
+Poppy has-range-type Melee.
+Poppy belongs-to Demacia.
+Poppy released-in equal-to 2010.
+Poppy has-importance equal-to 8.
+
+Pyke is a champion.
+Pyke has-gender Male.
+Pyke plays-in Support.
+Pyke has-species Revenant.
+Pyke uses-resource Mana.
+Pyke has-range-type Melee.
+Pyke belongs-to Bilgewater.
+Pyke released-in equal-to 2018.
+Pyke has-importance equal-to 6.
+
+Qiyana is a champion.
+Qiyana has-gender Female.
+Qiyana plays-in Middle.
+Qiyana has-species Human and has-species Magicborn.
+Qiyana uses-resource Mana.
+Qiyana has-range-type Melee.
+Qiyana belongs-to Ixtal.
+Qiyana released-in equal-to 2019.
+Qiyana has-importance equal-to 7.
+
+Quinn is a champion.
+Quinn has-gender Female.
+Quinn plays-in Top.
+Quinn has-species Human.
+Quinn uses-resource Mana.
+Quinn has-range-type Ranged.
+Quinn belongs-to Demacia.
+Quinn released-in equal-to 2013.
+Quinn has-importance equal-to 6.
+
+Rakan is a champion.
+Rakan has-gender Male.
+Rakan plays-in Support.
+Rakan has-species Vastayan.
+Rakan uses-resource Mana.
+Rakan has-range-type Melee.
+Rakan belongs-to Ionia.
+Rakan released-in equal-to 2017.
+Rakan has-importance equal-to 6.
+
+Rammus is a champion.
+Rammus has-gender Male.
+Rammus plays-in Jungle.
+Rammus has-species Unknown.
+Rammus uses-resource Mana.
+Rammus has-range-type Melee.
+Rammus belongs-to Shurima.
+Rammus released-in equal-to 2009.
+Rammus has-importance equal-to 6.
+
+Rek-Sai is a champion.
+Rek-Sai has-gender Female.
+Rek-Sai plays-in Jungle.
+Rek-Sai has-species Void-Being.
+Rek-Sai uses-resource Rage.
+Rek-Sai has-range-type Melee.
+Rek-Sai belongs-to Shurima and belongs-to Void.
+Rek-Sai released-in equal-to 2014.
+Rek-Sai has-importance equal-to 7.
+
+Rell is a champion.
+Rell has-gender Female.
+Rell plays-in Support.
+Rell has-species Human and has-species Magically-Altered and has-species Magicborn.
+Rell uses-resource Mana.
+Rell has-range-type Melee.
+Rell belongs-to Noxus.
+Rell released-in equal-to 2020.
+Rell has-importance equal-to 8.
+
+Renekton is a champion.
+Renekton has-gender Male.
+Renekton plays-in Top.
+Renekton has-species God-Warrior.
+Renekton uses-resource Fury.
+Renekton has-range-type Melee.
+Renekton belongs-to Shurima.
+Renekton released-in equal-to 2011.
+Renekton has-importance equal-to 6.
+
+Rengar is a champion.
+Rengar has-gender Male.
+Rengar plays-in Jungle.
+Rengar has-species Vastayan.
+Rengar uses-resource Ferocity.
+Rengar has-range-type Melee.
+Rengar belongs-to Ixtal and belongs-to Shurima.
+Rengar released-in equal-to 2012.
+Rengar has-importance equal-to 7.
+
+Riven is a champion.
+Riven has-gender Female.
+Riven plays-in Top.
+Riven has-species Human.
+Riven uses-resource Manaless.
+Riven has-range-type Melee.
+Riven belongs-to Ionia and belongs-to Noxus.
+Riven released-in equal-to 2011.
+Riven has-importance equal-to 7.
+
+Rumble is a champion.
+Rumble has-gender Male.
+Rumble plays-in Top.
+Rumble has-species Yordle.
+Rumble uses-resource Heat.
+Rumble has-range-type Melee.
+Rumble belongs-to Bandle-City.
+Rumble released-in equal-to 2011.
+Rumble has-importance equal-to 6.
+
+Ryze is a champion.
+Ryze has-gender Male.
+Ryze plays-in Middle and plays-in Top.
+Ryze has-species Human and has-species Magically-Altered.
+Ryze uses-resource Mana.
+Ryze has-range-type Ranged.
+Ryze belongs-to Runeterra.
+Ryze released-in equal-to 2009.
+Ryze has-importance equal-to 8.
+
+Samira is a champion.
+Samira has-gender Female.
+Samira plays-in Bottom.
+Samira has-species Human.
+Samira uses-resource Mana.
+Samira has-range-type Ranged.
+Samira belongs-to Noxus and belongs-to Shurima.
+Samira released-in equal-to 2020.
+Samira has-importance equal-to 7.
+
+Sejuani is a champion.
+Sejuani has-gender Female.
+Sejuani plays-in Jungle.
+Sejuani has-species Human and has-species Iceborn.
+Sejuani uses-resource Mana.
+Sejuani has-range-type Melee.
+Sejuani belongs-to Freljord.
+Sejuani released-in equal-to 2012.
+Sejuani has-importance equal-to 7.
+
+Senna is a champion.
+Senna has-gender Female.
+Senna plays-in Support.
+Senna has-species Human and has-species Undead.
+Senna uses-resource Mana.
+Senna has-range-type Ranged.
+Senna belongs-to Shadow-Isles.
+Senna released-in equal-to 2019.
+Senna has-importance equal-to 7.
+
+Seraphine is a champion.
+Seraphine has-gender Female.
+Seraphine plays-in Support.
+Seraphine has-species Human and has-species Magicborn.
+Seraphine uses-resource Mana.
+Seraphine has-range-type Ranged.
+Seraphine belongs-to Piltover and belongs-to Zaun.
+Seraphine released-in equal-to 2020.
+Seraphine has-importance equal-to 8.
+
+Sett is a champion.
+Sett has-gender Male.
+Sett plays-in Top.
+Sett has-species Human and has-species Vastayan.
+Sett uses-resource Grit.
+Sett has-range-type Melee.
+Sett belongs-to Ionia.
+Sett released-in equal-to 2020.
+Sett has-importance equal-to 7.
+
+Shaco is a champion.
+Shaco has-gender Male.
+Shaco plays-in Jungle.
+Shaco has-species Spirit.
+Shaco uses-resource Mana.
+Shaco has-range-type Melee.
+Shaco belongs-to Runeterra.
+Shaco released-in equal-to 2009.
+Shaco has-importance equal-to 6.
+
+Shen is a champion.
+Shen has-gender Male.
+Shen plays-in Support and plays-in Top.
+Shen has-species Human and has-species Spiritualist.
+Shen uses-resource Energy.
+Shen has-range-type Melee.
+Shen belongs-to Ionia.
+Shen released-in equal-to 2010.
+Shen has-importance equal-to 8.
+
+Shyvana is a champion.
+Shyvana has-gender Female.
+Shyvana plays-in Jungle.
+Shyvana has-species Dragon and has-species Magically-Altered.
+Shyvana uses-resource Fury.
+Shyvana has-range-type Melee.
+Shyvana belongs-to Demacia.
+Shyvana released-in equal-to 2011.
+Shyvana has-importance equal-to 7.
+
+Singed is a champion.
+Singed has-gender Male.
+Singed plays-in Top.
+Singed has-species Chemically-Altered and has-species Human.
+Singed uses-resource Mana.
+Singed has-range-type Melee.
+Singed belongs-to Piltover and belongs-to Zaun.
+Singed released-in equal-to 2009.
+Singed has-importance equal-to 8.
+
+Sion is a champion.
+Sion has-gender Male.
+Sion plays-in Top.
+Sion has-species Revenant.
+Sion uses-resource Mana.
+Sion has-range-type Melee.
+Sion belongs-to Noxus.
+Sion released-in equal-to 2009.
+Sion has-importance equal-to 6.
+
+Sivir is a champion.
+Sivir has-gender Female.
+Sivir plays-in Bottom.
+Sivir has-species Human.
+Sivir uses-resource Mana.
+Sivir has-range-type Ranged.
+Sivir belongs-to Shurima.
+Sivir released-in equal-to 2009.
+Sivir has-importance equal-to 6.
+
+Skarner is a champion.
+Skarner has-gender Male.
+Skarner plays-in Jungle and plays-in Top.
+Skarner has-species Brackern.
+Skarner uses-resource Mana.
+Skarner has-range-type Melee.
+Skarner belongs-to Ixtal.
+Skarner released-in equal-to 2011.
+Skarner has-importance equal-to 7.
+
+Smolder is a champion.
+Smolder has-gender Male.
+Smolder plays-in Bottom.
+Smolder has-species Dragon.
+Smolder uses-resource Mana.
+Smolder has-range-type Ranged.
+Smolder belongs-to Camavor and belongs-to Noxus.
+Smolder released-in equal-to 2024.
+Smolder has-importance equal-to 7.
+
+Sona is a champion.
+Sona has-gender Female.
+Sona plays-in Support.
+Sona has-species Human and has-species Magicborn.
+Sona uses-resource Mana.
+Sona has-range-type Ranged.
+Sona belongs-to Demacia and belongs-to Ionia.
+Sona released-in equal-to 2010.
+Sona has-importance equal-to 8.
+
+Soraka is a champion.
+Soraka has-gender Female.
+Soraka plays-in Support.
+Soraka has-species Celestial.
+Soraka uses-resource Mana.
+Soraka has-range-type Ranged.
+Soraka belongs-to Ionia and belongs-to Targon.
+Soraka released-in equal-to 2009.
+Soraka has-importance equal-to 7.
+
+Swain is a champion.
+Swain has-gender Male.
+Swain plays-in Support.
+Swain has-species Human and has-species Magically-Altered.
+Swain uses-resource Mana.
+Swain has-range-type Ranged.
+Swain belongs-to Noxus.
+Swain released-in equal-to 2010.
+Swain has-importance equal-to 7.
+
+Sylas is a champion.
+Sylas has-gender Male.
+Sylas plays-in Jungle and plays-in Middle.
+Sylas has-species Human and has-species Magicborn.
+Sylas uses-resource Mana.
+Sylas has-range-type Melee.
+Sylas belongs-to Demacia and belongs-to Freljord.
+Sylas released-in equal-to 2019.
+Sylas has-importance equal-to 9.
+
+Syndra is a champion.
+Syndra has-gender Female.
+Syndra plays-in Middle.
+Syndra has-species Human and has-species Magicborn.
+Syndra uses-resource Mana.
+Syndra has-range-type Ranged.
+Syndra belongs-to Ionia.
+Syndra released-in equal-to 2012.
+Syndra has-importance equal-to 7.
+
+Taliyah is a champion.
+Taliyah has-gender Female.
+Taliyah plays-in Jungle and plays-in Middle.
+Taliyah has-species Human and has-species Magicborn.
+Taliyah uses-resource Mana.
+Taliyah has-range-type Ranged.
+Taliyah belongs-to Shurima.
+Taliyah released-in equal-to 2016.
+Taliyah has-importance equal-to 8.
+
+Talon is a champion.
+Talon has-gender Male.
+Talon plays-in Jungle and plays-in Middle.
+Talon has-species Human.
+Talon uses-resource Mana.
+Talon has-range-type Melee.
+Talon belongs-to Noxus.
+Talon released-in equal-to 2011.
+Talon has-importance equal-to 7.
+
+Taric is a champion.
+Taric has-gender Male.
+Taric plays-in Support.
+Taric has-species Aspect and has-species Human.
+Taric uses-resource Mana.
+Taric has-range-type Melee.
+Taric belongs-to Demacia and belongs-to Targon.
+Taric released-in equal-to 2009.
+Taric has-importance equal-to 8.
+
+Teemo is a champion.
+Teemo has-gender Male.
+Teemo plays-in Top.
+Teemo has-species Yordle.
+Teemo uses-resource Mana.
+Teemo has-range-type Ranged.
+Teemo belongs-to Bandle-City.
+Teemo released-in equal-to 2009.
+Teemo has-importance equal-to 6.
+
+Thresh is a champion.
+Thresh has-gender Male.
+Thresh plays-in Support.
+Thresh has-species Undead.
+Thresh uses-resource Mana.
+Thresh has-range-type Ranged.
+Thresh belongs-to Shadow-Isles.
+Thresh released-in equal-to 2013.
+Thresh has-importance equal-to 6.
+
+Tristana is a champion.
+Tristana has-gender Female.
+Tristana plays-in Bottom and plays-in Middle.
+Tristana has-species Yordle.
+Tristana uses-resource Mana.
+Tristana has-range-type Ranged.
+Tristana belongs-to Bandle-City.
+Tristana released-in equal-to 2009.
+Tristana has-importance equal-to 7.
+
+Trundle is a champion.
+Trundle has-gender Male.
+Trundle plays-in Jungle and plays-in Top.
+Trundle has-species Iceborn and has-species Troll.
+Trundle uses-resource Mana.
+Trundle has-range-type Melee.
+Trundle belongs-to Freljord.
+Trundle released-in equal-to 2010.
+Trundle has-importance equal-to 8.
+
+Tryndamere is a champion.
+Tryndamere has-gender Male.
+Tryndamere plays-in Top.
+Tryndamere has-species Human and has-species Magically-Altered.
+Tryndamere uses-resource Fury.
+Tryndamere has-range-type Melee.
+Tryndamere belongs-to Freljord.
+Tryndamere released-in equal-to 2009.
+Tryndamere has-importance equal-to 7.
+
+Twitch is a champion.
+Twitch has-gender Male.
+Twitch plays-in Bottom.
+Twitch has-species Chemically-Altered and has-species Rat.
+Twitch uses-resource Mana.
+Twitch has-range-type Ranged.
+Twitch belongs-to Zaun.
+Twitch released-in equal-to 2009.
+Twitch has-importance equal-to 7.
+
+Udyr is a champion.
+Udyr has-gender Male.
+Udyr plays-in Jungle.
+Udyr has-species Human and has-species Spiritualist.
+Udyr uses-resource Mana.
+Udyr has-range-type Melee.
+Udyr belongs-to Freljord and belongs-to Ionia.
+Udyr released-in equal-to 2009.
+Udyr has-importance equal-to 8.
+
+Urgot is a champion.
+Urgot has-gender Male.
+Urgot plays-in Top.
+Urgot has-species Chemically-Altered and has-species Cyborg and has-species Human.
+Urgot uses-resource Mana.
+Urgot has-range-type Ranged.
+Urgot belongs-to Noxus and belongs-to Zaun.
+Urgot released-in equal-to 2010.
+Urgot has-importance equal-to 9.
+
+Varus is a champion.
+Varus has-gender Male.
+Varus plays-in Bottom.
+Varus has-species Darkin and has-species Human.
+Varus uses-resource Mana.
+Varus has-range-type Ranged.
+Varus belongs-to Ionia and belongs-to Runeterra and belongs-to Shurima.
+Varus released-in equal-to 2012.
+Varus has-importance equal-to 9.
+
+Vayne is a champion.
+Vayne has-gender Female.
+Vayne plays-in Bottom and plays-in Top.
+Vayne has-species Human.
+Vayne uses-resource Mana.
+Vayne has-range-type Ranged.
+Vayne belongs-to Demacia.
+Vayne released-in equal-to 2011.
+Vayne has-importance equal-to 7.
+
+Veigar is a champion.
+Veigar has-gender Male.
+Veigar plays-in Middle.
+Veigar has-species Yordle.
+Veigar uses-resource Mana.
+Veigar has-range-type Ranged.
+Veigar belongs-to Bandle-City and belongs-to Runeterra and belongs-to Shadow-Isles.
+Veigar released-in equal-to 2009.
+Veigar has-importance equal-to 8.
+
+Vel-Koz is a champion.
+Vel-Koz has-gender Male.
+Vel-Koz plays-in Middle and plays-in Support.
+Vel-Koz has-species Void-Being.
+Vel-Koz uses-resource Mana.
+Vel-Koz has-range-type Ranged.
+Vel-Koz belongs-to Void.
+Vel-Koz released-in equal-to 2014.
+Vel-Koz has-importance equal-to 7.
+
+Vex is a champion.
+Vex has-gender Female.
+Vex plays-in Middle.
+Vex has-species Yordle.
+Vex uses-resource Mana.
+Vex has-range-type Ranged.
+Vex belongs-to Bandle-City and belongs-to Shadow-Isles.
+Vex released-in equal-to 2021.
+Vex has-importance equal-to 7.
+
+Vi is a champion.
+Vi has-gender Female.
+Vi plays-in Jungle.
+Vi has-species Human.
+Vi uses-resource Mana.
+Vi has-range-type Melee.
+Vi belongs-to Piltover and belongs-to Zaun.
+Vi released-in equal-to 2012.
+Vi has-importance equal-to 7.
+
+Viego is a champion.
+Viego has-gender Male.
+Viego plays-in Jungle.
+Viego has-species Undead.
+Viego uses-resource Manaless.
+Viego has-range-type Melee.
+Viego belongs-to Camavor and belongs-to Shadow-Isles.
+Viego released-in equal-to 2021.
+Viego has-importance equal-to 7.
+
+Viktor is a champion.
+Viktor has-gender Male.
+Viktor plays-in Middle.
+Viktor has-species Cyborg and has-species Human.
+Viktor uses-resource Mana.
+Viktor has-range-type Ranged.
+Viktor belongs-to Piltover and belongs-to Zaun.
+Viktor released-in equal-to 2011.
+Viktor has-importance equal-to 8.
+
+Vladimir is a champion.
+Vladimir has-gender Male.
+Vladimir plays-in Middle and plays-in Top.
+Vladimir has-species Human and has-species Magically-Altered.
+Vladimir uses-resource Bloodthirst.
+Vladimir has-range-type Ranged.
+Vladimir belongs-to Camavor and belongs-to Noxus and belongs-to Shadow-Isles.
+Vladimir released-in equal-to 2010.
+Vladimir has-importance equal-to 10.
+
+Volibear is a champion.
+Volibear has-gender Male.
+Volibear plays-in Jungle and plays-in Top.
+Volibear has-species God and has-species Spirit.
+Volibear uses-resource Mana.
+Volibear has-range-type Melee.
+Volibear belongs-to Freljord.
+Volibear released-in equal-to 2011.
+Volibear has-importance equal-to 8.
+
+Warwick is a champion.
+Warwick has-gender Male.
+Warwick plays-in Jungle and plays-in Top.
+Warwick has-species Chemically-Altered and has-species Cyborg and has-species Human.
+Warwick uses-resource Mana.
+Warwick has-range-type Melee.
+Warwick belongs-to Zaun.
+Warwick released-in equal-to 2009.
+Warwick has-importance equal-to 9.
+
+Wukong is a champion.
+Wukong has-gender Male.
+Wukong plays-in Jungle and plays-in Top.
+Wukong has-species Vastayan.
+Wukong uses-resource Mana.
+Wukong has-range-type Melee.
+Wukong belongs-to Ionia.
+Wukong released-in equal-to 2011.
+Wukong has-importance equal-to 7.
+
+Xayah is a champion.
+Xayah has-gender Female.
+Xayah plays-in Bottom.
+Xayah has-species Vastayan.
+Xayah uses-resource Mana.
+Xayah has-range-type Ranged.
+Xayah belongs-to Ionia.
+Xayah released-in equal-to 2017.
+Xayah has-importance equal-to 6.
+
+Xerath is a champion.
+Xerath has-gender Male.
+Xerath plays-in Middle and plays-in Support.
+Xerath has-species God-Warrior.
+Xerath uses-resource Mana.
+Xerath has-range-type Ranged.
+Xerath belongs-to Shurima.
+Xerath released-in equal-to 2011.
+Xerath has-importance equal-to 7.
+
+Xin-Zhao is a champion.
+Xin-Zhao has-gender Male.
+Xin-Zhao plays-in Jungle.
+Xin-Zhao has-species Human.
+Xin-Zhao uses-resource Mana.
+Xin-Zhao has-range-type Melee.
+Xin-Zhao belongs-to Demacia and belongs-to Ionia and belongs-to Noxus.
+Xin-Zhao released-in equal-to 2010.
+Xin-Zhao has-importance equal-to 8.
+
+Yasuo is a champion.
+Yasuo has-gender Male.
+Yasuo plays-in Middle.
+Yasuo has-species Human and has-species Magicborn.
+Yasuo uses-resource Flow.
+Yasuo has-range-type Melee.
+Yasuo belongs-to Ionia.
+Yasuo released-in equal-to 2013.
+Yasuo has-importance equal-to 7.
+
+Yone is a champion.
+Yone has-gender Male.
+Yone plays-in Middle and plays-in Top.
+Yone has-species Human and has-species Magically-Altered.
+Yone uses-resource Manaless.
+Yone has-range-type Melee.
+Yone belongs-to Ionia.
+Yone released-in equal-to 2020.
+Yone has-importance equal-to 8.
+
+Yorick is a champion.
+Yorick has-gender Male.
+Yorick plays-in Top.
+Yorick has-species Human and has-species Magically-Altered.
+Yorick uses-resource Mana.
+Yorick has-range-type Melee.
+Yorick belongs-to Shadow-Isles.
+Yorick released-in equal-to 2011.
+Yorick has-importance equal-to 7.
+
+Yuumi is a champion.
+Yuumi has-gender Female.
+Yuumi plays-in Support.
+Yuumi has-species Cat and has-species Magically-Altered.
+Yuumi uses-resource Mana.
+Yuumi has-range-type Ranged.
+Yuumi belongs-to Bandle-City.
+Yuumi released-in equal-to 2019.
+Yuumi has-importance equal-to 7.
+
+Zac is a champion.
+Zac has-gender Male.
+Zac plays-in Jungle and plays-in Top.
+Zac has-species Golem.
+Zac uses-resource Health-Costs.
+Zac has-range-type Melee.
+Zac belongs-to Zaun.
+Zac released-in equal-to 2013.
+Zac has-importance equal-to 7.
+
+Zed is a champion.
+Zed has-gender Male.
+Zed plays-in Middle.
+Zed has-species Human and has-species Magically-Altered.
+Zed uses-resource Energy.
+Zed has-range-type Melee.
+Zed belongs-to Ionia.
+Zed released-in equal-to 2012.
+Zed has-importance equal-to 7.
+
+Zeri is a champion.
+Zeri has-gender Female.
+Zeri plays-in Bottom.
+Zeri has-species Human and has-species Magicborn.
+Zeri uses-resource Mana.
+Zeri has-range-type Ranged.
+Zeri belongs-to Zaun.
+Zeri released-in equal-to 2022.
+Zeri has-importance equal-to 7.
+
+Ziggs is a champion.
+Ziggs has-gender Male.
+Ziggs plays-in Bottom and plays-in Middle.
+Ziggs has-species Yordle.
+Ziggs uses-resource Mana.
+Ziggs has-range-type Ranged.
+Ziggs belongs-to Zaun.
+Ziggs released-in equal-to 2012.
+Ziggs has-importance equal-to 7.
+
+Zilean is a champion.
+Zilean has-gender Male.
+Zilean plays-in Support.
+Zilean has-species Human and has-species Magicborn.
+Zilean uses-resource Mana.
+Zilean has-range-type Ranged.
+Zilean belongs-to Icathia and belongs-to Runeterra and belongs-to Shurima.
+Zilean released-in equal-to 2009.
+Zilean has-importance equal-to 9.
+
+Zoe is a champion.
+Zoe has-gender Female.
+Zoe plays-in Middle.
+Zoe has-species Aspect and has-species Human.
+Zoe uses-resource Mana.
+Zoe has-range-type Ranged.
+Zoe belongs-to Targon.
+Zoe released-in equal-to 2017.
+Zoe has-importance equal-to 7.
+
+Zyra is a champion.
+Zyra has-gender Female.
+Zyra plays-in Support.
+Zyra has-species Unknown.
+Zyra uses-resource Mana.
+Zyra has-range-type Ranged.
+Zyra belongs-to Ixtal.
+Zyra released-in equal-to 2012.
+Zyra has-importance equal-to 6.
+
+
