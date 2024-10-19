@@ -96,6 +96,15 @@ Runeterra,
 Targon
 2016
 
+Female
+Middle,
+Top
+Vastayan
+Mana
+Ranged
+Freljord
+2024
+
 Male
 Middle
 God-Warrior
@@ -194,7 +203,6 @@ Void
 2009
 
 Male
-Bottom,
 Middle
 Yordle
 Mana
@@ -744,6 +752,7 @@ Void
 2010
 
 Male
+Jungle,
 Support
 Spirit
 Mana
@@ -924,6 +933,7 @@ Ixtal
 2019
 
 Female
+Middle,
 Top
 Human
 Mana
