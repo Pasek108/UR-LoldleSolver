@@ -17,8 +17,13 @@
   * [Technologies](#technologies)
   * [Features](#features)
   * [Setup](#setup)
-  * [Acknowledgements](#acknowledgements)
 * [Details](#details)
+  * [Data sources](#data-sources)
+  * [Knowledge Base Structure](#knowledge-base-structure)
+    * [Class Descriptions](#class-Descriptions)
+    * [Attribute Descriptions](#attribute-descriptions)
+    * [Relationship Descriptions](#relationship-descriptions)
+    * [CNL Diagram](#cnl-diagram)
   * [User interface](#user-interface)
   * [Project structure](#project-structure)
   * [Code organization](#code-organization)
@@ -26,8 +31,11 @@
 <br>
 
 ## Informations
-Deer Killer is an arcade racing game with the goal to get as many points as possible in one attempt by killing deers and avoiding cars. <br>
-See [live demo](https://artur-pas.000webhostapp.com/DeerKiller/).
+The project involved creating an ontological knowledge base using real-world data. The chosen environment for this task was Ontorion Fluent Editor 2015.
+
+The project focuses on creating a knowledge base about characters from the game League of Legends and using it, along with the Fluent Editor environment, to solve the daily [Loldle game in classic mode](https://loldle.net/classic).
+
+The knowledge base contains around 1,700 sentences written in CNL (Controlled Natural Language), which is a controlled language specific to the Fluent Editor environment. The data includes character names, regions, resources used by the character, attack range, gender, species, release year, and the character's in-game position. The database was generated automatically using data collected manually from the Loldle game website.
 
 ![preview](/_for_readme/preview.png)
 
@@ -38,10 +46,10 @@ Languages:
 - HTML
 - CSS
 - JS
-- PHP
+- SPARQL
   
 Programs:
-- [XAMPP](https://www.apachefriends.org/pl/index.html)
+- [FluentEditor](https://www.cognitum.eu/semantics/fluenteditor/)
 - [VSCode](https://code.visualstudio.com)
   
 ----------------------------------
@@ -94,43 +102,84 @@ To edit this program:
 - Open [localhost](http://localhost) and open folder that you previously moved to htdocs
 - Start coding
 
-----------------------------------
-
-### Acknowledgements
-#### Images
-- [Menu logo](https://pixabay.com/vectors/traffic-sign-road-sign-caution-deer-3015221/)
-- [Menu blood](https://www.transparentpng.com/download/blood-splatter-cut-out_14064.html)
-- [Menu underline](https://www.dreamstime.com/red-highlighter-marker-red-highlighter-marker-strokes-vector-brush-pen-underline-lines-image129437064)
-- [Deer skull](https://www.deviantart.com/seansan1/art/First-Attempt-at-Pixel-Art-Deer-Skull-644362445)
-- [Cars](https://www.spriters-resource.com/nes/supercars/sheet/102985/)
-- [Blood](http://pixelartmaker.com/art/a3c176205942be4)
-- [Car explosion](https://nyknck.itch.io/explosion)
-- [Forest background](https://elthen.itch.io/2d-pixel-art-forest-tileset)
-
-#### Music
-- [Menu music](https://www.youtube.com/watch?v=k68thGEDlx8)
-- [Game music](https://www.youtube.com/watch?v=XkDZxO-Fn3E)
-
-#### Fonts
-- [Royal fighter](https://fontmeme.com/fonts/royal-fighter-font/)
-- [Edit undo](https://www.1001fonts.com/edit-undo-font.html)
-
-#### Sounds
-- [Car crush](https://www.freesoundslibrary.com/car-crash-sound-effect/)
-- [Car explosion](https://www.freesoundeffects.com/free-track/bomb-2-466478/)
-- [Tires screech](https://bigsoundbank.com/detail-2370-screeching-tires-3.html)
-- [Car crash on tree](https://www.youtube.com/watch?v=Go19ucS43OM)
-- [Points count](https://freesound.org/people/xtrgamr/sounds/253546/)
-- [Deer laugh 1](https://mixkit.co/free-sound-effects/laugh/)
-- [Deer laugh 2](https://mixkit.co/free-sound-effects/laugh/)
-- [Deer laugh 3](https://mixkit.co/free-sound-effects/laugh/)
-- [Deer laugh 4](https://mixkit.co/free-sound-effects/laugh/)
-- [Deer laugh 4](https://mixkit.co/free-sound-effects/laugh/)
-
 <br>
 
 ## Details
 This section is a general description of the project required to understand how it works, the exact details are in the code or simply are the code.
+
+### Data sources
+The project was based on information from the website [https://loldle.net/classic](https://loldle.net/classic).
+
+### Knowledge Base Structure
+
+The key elements of the ontological knowledge base are classes, their instances (individuals), and the relationships between these elements. The database has a flat structure, consisting of 7 classes, 6 relations, and 2 attributes.
+
+#### Class Descriptions
+Class "gender"
+Describes the gender of characters. Currently, there are 3 genders in the game.
+
+Figure 1. Class "gender" and its individuals
+
+Class "position"
+Describes the positions a character is currently played in. There are 5 positions in the game, and characters are often played in multiple positions.
+
+Figure 2. Class "position" and its individuals
+
+Class "resource"
+Describes the resource used by the character in the game. Currently, characters use one of 13 types of resources.
+
+Figure 3. Class "resource" and its individuals
+
+Class "species"
+Describes the species/race of a character. Characters may belong to one or more of 29 species.
+
+Figure 4. Class "species" and its individuals
+
+Class "range-type"
+Describes the attack range of a character.
+
+Figure 5. Class "range-type" and its individuals
+
+Class "region"
+Describes the locations associated with the characters. There are 16 main regions in the game’s lore.
+
+Figure 6. Class "region" and its individuals
+
+Class "champion"
+Describes the existing champions. There are 167 champions available for players.
+
+Figures 7, 8, 9, 10, 11, 12. Class "champion" and its individuals
+
+#### Attribute Descriptions
+Attribute "released-in"
+Describes the year of a champion's release.
+
+Attribute "have-importance"
+Describes the amount of information about a character. This attribute is artificially generated for use in finding the best choice during the Loldle game and does not exist in the game itself.
+
+#### Relationship Descriptions
+Relation "have-gender"
+Links a character to their gender.
+
+Relation "play-in"
+Links a character to the positions they are played in.
+
+Relation "use-resource"
+Links a character to the resource they use.
+
+Relation "have-range-type"
+Links a character to their attack types.
+
+Relation "have-species"
+Links a character to their species.
+
+Relation "belong-to"
+Links a character to the regions they are associated with.
+
+#### CNL Diagram
+Below is a CNL diagram of the ontological knowledge base. White rectangles represent classes, green rectangles represent class instances or individuals, and black connections signify class containment. Green connections represent user-defined relationships.
+
+Figure 13. CNL Diagram created using Fluent Editor
 
 ### User interface
 #### Main menu
