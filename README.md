@@ -37,6 +37,8 @@ The project focuses on creating a knowledge base about characters from the game 
 
 The knowledge base contains around 1,700 sentences written in CNL (Controlled Natural Language), which is a controlled language specific to the Fluent Editor environment. The data includes character names, regions, resources used by the character, attack range, gender, species, release year, and the character's in-game position.
 
+<br>
+
 ![preview](/_for_readme/preview.png)
 
 ----------------------------------
@@ -101,6 +103,7 @@ Programs:
 
 For more data check [Middle column](#middle-column) section
 
+
 #### Updating data 
 
 Method 1:
@@ -138,33 +141,47 @@ The key elements of the ontological knowledge base are classes, their instances 
 
 ![gender class](/_for_readme/gender_class.png)
 
+<br>
+
 - **Class "position"** - Describes the positions a character is currently played in. There are 5 positions in the game, and characters are often played in multiple positions.
 
 ![gender class](/_for_readme/position_class.png)
+
+<br>
 
 - **Class "resource"** - Describes the resource used by the character in the game. Currently, characters use one of 13 types of resources.
 
 ![gender class](/_for_readme/resource_class.png)
 
+<br>
+
 - **Class "species"** - Describes the species/race of a character. Characters may belong to one or more of 29 species.
 
 ![gender class](/_for_readme/species_class.png)
+
+<br>
 
 - **Class "range-type"** - Describes the attack range of a character.
 
 ![gender class](/_for_readme/range-type_class.png)
 
+<br>
+
 - **Class "region"** - Describes the locations associated with the characters. There are 16 main regions in the game’s lore.
 
 ![gender class](/_for_readme/region_class.png)
+
+<br>
 
 - **Class "champion"** - Describes the existing champions. There are 167 champions available for players.
 
 ![gender class](/_for_readme/champion_class.png)
 
+
 #### Attribute descriptions
 - **Attribute "released-in"** - Describes the year of a champion's release.
 - **Attribute "have-importance"** - Describes the amount of information about a character. This attribute is artificially generated for use in finding the best choice during the Loldle game and does not exist in the game itself.
+
 
 #### Relationship descriptions
 - **Relation "have-gender"** - Links a character to their gender.
@@ -173,6 +190,7 @@ The key elements of the ontological knowledge base are classes, their instances 
 - **Relation "have-range-type"** - Links a character to their attack types.
 - **Relation "have-species"** - Links a character to their species.
 - **Relation "belong-to"** - Links a character to the regions they are associated with.
+
 
 #### CNL diagram
 Below is a CNL diagram of the ontological knowledge base. White rectangles represent classes, green rectangles represent class instances or individuals, and black connections signify class containment. Green connections represent user-defined relationships.
@@ -327,6 +345,7 @@ Next, by clicking on the containers, the player must reflect the correctness of 
 ##### Right column
 The right column of the program is used to generate a query based on the provided data by pressing the "Generate SPARQL" button.
 
+----------------------------------
 
 #### Fluent editor
 ![fluent editor](/_for_readme/fluent_editor.png)
