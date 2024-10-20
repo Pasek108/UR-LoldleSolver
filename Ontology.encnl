@@ -200,6 +200,16 @@ Aurelion-Sol belongs-to Runeterra and belongs-to Targon.
 Aurelion-Sol released-in equal-to 2016.
 Aurelion-Sol has-importance equal-to 8.
 
+Aurora is a champion.
+Aurora has-gender Female.
+Aurora plays-in Middle and plays-in Top.
+Aurora has-species Vastayan.
+Aurora uses-resource Mana.
+Aurora has-range-type Ranged.
+Aurora belongs-to Freljord.
+Aurora released-in equal-to 2024.
+Aurora has-importance equal-to 7.
+
 Azir is a champion.
 Azir has-gender Male.
 Azir plays-in Middle.
@@ -312,13 +322,13 @@ Cho-Gath has-importance equal-to 6.
 
 Corki is a champion.
 Corki has-gender Male.
-Corki plays-in Bottom and plays-in Middle.
+Corki plays-in Middle.
 Corki has-species Yordle.
 Corki uses-resource Mana.
 Corki has-range-type Ranged.
 Corki belongs-to Bandle-City and belongs-to Piltover.
 Corki released-in equal-to 2009.
-Corki has-importance equal-to 8.
+Corki has-importance equal-to 7.
 
 Darius is a champion.
 Darius has-gender Male.
@@ -912,13 +922,13 @@ Malzahar has-importance equal-to 8.
 
 Maokai is a champion.
 Maokai has-gender Male.
-Maokai plays-in Support.
+Maokai plays-in Jungle and plays-in Support.
 Maokai has-species Spirit.
 Maokai uses-resource Mana.
 Maokai has-range-type Melee.
 Maokai belongs-to Shadow-Isles.
 Maokai released-in equal-to 2011.
-Maokai has-importance equal-to 6.
+Maokai has-importance equal-to 7.
 
 Master-Yi is a champion.
 Master-Yi has-gender Male.
@@ -1112,13 +1122,13 @@ Qiyana has-importance equal-to 7.
 
 Quinn is a champion.
 Quinn has-gender Female.
-Quinn plays-in Top.
+Quinn plays-in Middle and plays-in Top.
 Quinn has-species Human.
 Quinn uses-resource Mana.
 Quinn has-range-type Ranged.
 Quinn belongs-to Demacia.
 Quinn released-in equal-to 2013.
-Quinn has-importance equal-to 6.
+Quinn has-importance equal-to 7.
 
 Rakan is a champion.
 Rakan has-gender Male.

@@ -39,6 +39,8 @@ generate_SPARQL_button.addEventListener("click", () => {
   query_output.value = generateSPARQL()
 })
 
+getChampionsData()
+
 function getChampionsData() {
   fetch("./data/champions_data.txt")
     .then((res) => res.text())
@@ -179,6 +181,10 @@ function generateSPARQL() {
     ?x rdf:type :Champion.
     ?x :hasGender :Male.
     FILTER (?g IN (:Male, :Other))
+    FILTER NOT EXISTS {
+      ?x :hasGender ?g. 
+      FILTER (?g IN (:Male, :Female)).
+    }.
     ?x :playsIn :Top.
     FILTER NOT EXISTS {?x :hasSpecies :Darkin.}
     FILTER NOT EXISTS {?x :hasResource :Manaless.}
@@ -207,7 +213,7 @@ function generateSPARQL() {
     ["region", "belongsTo", "reg"],
   ]
 
-  for (let column of columns) {
+  for (let [i, column] of columns.entries()) {
     const correct = [...data[column[0]].correct]
     const incorrect = [...data[column[0]].incorrect]
     const partialy = [...data[column[0]].partialy]
@@ -217,11 +223,21 @@ function generateSPARQL() {
         value = normalizeStr(value).replaceAll("-", "")
         query += `\t?x :${column[1]} :${value}.\n`
       })
+
+      const not_correct = [...axuillary_data[i]].filter(x => !correct.includes(x))
+      query += "\tFILTER NOT EXISTS {\n"
+      query += `\t\t?x :${column[1]} ?${column[2]}.\n`
+      query += `\t\tFILTER (?${column[2]} IN (`
+      query += not_correct.map((value) => `:${normalizeStr(value).replaceAll("-", "")}`).join(", ")
+      query += `)).\n`
+      query += "\t}\n"
     } else {
-      incorrect.forEach((value) => {
-        value = normalizeStr(value).replaceAll("-", "")
-        query += `\tFILTER NOT EXISTS {?x :${column[1]} :${value}}.\n`
-      })
+      query += "\tFILTER NOT EXISTS {\n"
+      query += `\t\t?x :${column[1]} ?${column[2]}.\n`
+      query += `\t\tFILTER (?${column[2]} IN (`
+      query += incorrect.map((value) => `:${normalizeStr(value).replaceAll("-", "")}`).join(", ")
+      query += `)).\n`
+      query += "\t}\n"
 
       if (partialy.length > 0) {
         query += `\t?x :${column[1]} ?${column[2]}.\n`
@@ -312,7 +328,3 @@ function getGuessedChampionsData() {
 
   return data
 }
-
-/*
-Who-Or-What is a champion that released-in greater-than 2022?
-*/
