@@ -108,16 +108,19 @@ To edit this program:
 <br>
 
 ## Details
-This section is a general description of the project required to understand how it works, the exact details are in the code or simply are the code.
 
 ### Data sources
 The knowledge base for the project was generated automatically using data collected manually from the website [https://loldle.net/classic](https://loldle.net/classic).
 
 The data was collected by manually entering all possible answers for the Loldle game. These include champion names and their attributes, which were then used to automatically populate the knowledge base using a JavaScript script.
 
+----------------------------------
+
 ### Knowledge Base Structure
 
 The key elements of the ontological knowledge base are classes, their instances (individuals), and the relationships between these elements. The database has a flat structure, consisting of 7 classes, 6 relations, and 2 attributes.
+
+----------------------------------
 
 #### Class Descriptions
 - **Class "gender"** - Describes the gender of characters. Currently, there are 3 genders in the game.
@@ -164,6 +167,8 @@ The key elements of the ontological knowledge base are classes, their instances 
 Below is a CNL diagram of the ontological knowledge base. White rectangles represent classes, green rectangles represent class instances or individuals, and black connections signify class containment. Green connections represent user-defined relationships.
 
 ![cnl diagram](/_for_readme/CNL_diagram_2.JPG)
+
+----------------------------------
 
 ### User interface
 #### Main menu
