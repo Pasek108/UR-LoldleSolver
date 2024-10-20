@@ -73,6 +73,7 @@ Programs:
 > - Choosing champions instead of copy-pasting its data
 > - Updating champions data from patch notes
 > - Automatically web scraping champions data
+> - More games (Dotadle, Pokedle etc.)
 
 ----------------------------------
 
@@ -98,11 +99,13 @@ Programs:
 7. Copy generated query
 8. Paste copied query in Fluent Editor SPARQL tab (last one in the bottom)
 9. Execute query using "Execute" button
-10. Input first champion from results to Loldle
+10. Enter the name of the first character from the list into the Loldle game
 11. If guess wasn't correct, go back to step 2
 
 ![loldle guesses](/_for_readme/loldle_guesses.png)
 ![marked champions](/_for_readme/marked_champions.png)
+
+For more data check [Middle column](#middle-column) section
 
 #### Updating data 
 
@@ -185,66 +188,66 @@ Below is a CNL diagram of the ontological knowledge base. White rectangles repre
 ----------------------------------
 
 ### User interface
-#### Main menu
-![main menu](/_for_readme/main_menu.png)
+#### Solver
+![main screen](/_for_readme/main_screen.png)
+
+Creating a query manually is a time-consuming task that requires knowledge of SPARQL and ensuring accuracy. 
+Therefore, a query generator was prepared, allowing queries to be generated based on data copied from the Loldle website.
+
+##### Left column
+The left column of the generator allows for the generation of a new character's ontology by entering their name and copied data, or the entire knowledge base based on data in the files *champions.txt* and *champions_data.txt* in the */data* folder.
+
+##### Middle column
+The middle column is used to create containers with character data by pasting data copied from the website. 
+
+It is possible to paste data for multiple characters at once, for example, if the player wants to use the program as a hint after several incorrect guesses, or to paste data one by one as characters are guessed with the help of the program.
+
+Next, by clicking on the containers, the player must reflect the correctness of the guessed character's data. The data has three types:
+• Red – incorrect, none of the data in the square is correct
+• Yellow – partially correct, at least one thing is correct but something is missing or doesn't fit
+• Green – correct guess
+
+- The order of the characters does not matter.
+- Repetitions do not affect the program's operation.
+- Once the correct data is marked in the column, you do not need to mark it again in other guesses.
+- Unwanted containers can be deleted by clicking the X icon.
+
+##### Right column
+The right column of the program is used to generate a query based on the provided data by pressing the "Generate SPARQL" button.
 
 
-----------------------------------
-
-#### Top score
+#### Fluent editor
 ![top_score](/_for_readme/top_score.png)
 
+The generated query should be pasted into the SPARQL tab and executed. Then, you need to enter the name of the first character from the list into the Loldle game. 
+If the guess is not correct, you need to copy the newly guessed character's data, paste it into the generator, mark the correctness, and once again generate and execute the query.
 
-----------------------------------
+##### Document area
+Document is a section for all knowledge base in the ontology. It contains all data about champions and everything associated with them.
 
-#### Credits
-![credits](/_for_readme/credits.png)
+##### Taxonomy tree
+Taxonomy tree is a tree representation of all existing types of data and its individuals.
 
-
-----------------------------------
-
-#### Difficulty
-![difficulty](/_for_readme/difficulty.png)
-
-
-----------------------------------
-
-#### Game
-![game](/_for_readme/game.png)
-![game_hit](/_for_readme/game_hit.png)
-
-
-----------------------------------
-
-#### Game over
-![game over](/_for_readme/game_over.png)
-
+##### SPARQL tab
+You can acces it at the bottom of the window. It's a tab where you must paste the generated query and execute it to get the most probable results.
 
 ----------------------------------
 
 ### Project structure
 The project directory tree looks like this:
-- :file_folder: DeerKiller (project folder)
+- :file_folder: UR-LoldleSolver (project folder)
   - :page_facing_up: *github config*
   - :page_facing_up: *readme file*
   - :page_facing_up: *index.html file*
+  - :page_facing_up: *style.css file*
+  - :page_facing_up: *script.js file*
+  - :page_facing_up: *Ontology.encnl file*
   - :file_folder: _for_readme - :page_facing_up: *files for readme*
-  - :file_folder: Sounds - :page_facing_up: *sounds and music used in project*
-  - :file_folder: Images
-    - :file_folder: UI - :page_facing_up: *images for user interface*
-    - :file_folder: Game - :page_facing_up: *images used in the game*
-  - :file_folder: PHP
-    - :page_facing_up: *mysql database file*
-    - :page_facing_up: *php files for saving and getting the score*
-  - :file_folder: Scripts
-    - :file_folder: Menu - :page_facing_up: *scripts for menu*
-    - :file_folder: Game
-      - :page_facing_up: *scripts for game*
-      - :file_folder: UI - :page_facing_up: *scripts for user interface in game*
-  - :file_folder: Styles
-    - :page_facing_up: *css files*
-    - :file_folder: fonts - :page_facing_up: *fonts used in the project*
+  - :file_folder: data
+    - :page_facing_up: *champions.txt file*
+    - :page_facing_up: *champions_data.txt file*
 
+<!--
 ----------------------------------
 
 ### Code organization
@@ -277,3 +280,5 @@ Game class creates and manages:
   - Enemy
   - Deer
   - HappyDeer
+
+-->
