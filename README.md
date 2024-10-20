@@ -98,8 +98,9 @@ Programs:
 10. Enter the name of the first character from the list into the Loldle game
 11. If guess wasn't correct, go back to step 2
 
-<img alt="loldle guesses" src="/_for_readme/loldle_guesses.png" width="600px">
-<img alt="marked champions" src="/_for_readme/marked_champions.png" width="600px">
+<br>
+<img alt="loldle guesses" src="/_for_readme/loldle_guesses.png" width="500px">
+<img alt="marked champions" src="/_for_readme/marked_champions.png" width="500px">
 
 For more data check [Middle column](#middle-column) section
 
