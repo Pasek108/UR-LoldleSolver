@@ -120,8 +120,6 @@ The data was collected by manually entering all possible answers for the Loldle 
 
 The key elements of the ontological knowledge base are classes, their instances (individuals), and the relationships between these elements. The database has a flat structure, consisting of 7 classes, 6 relations, and 2 attributes.
 
-----------------------------------
-
 #### Class Descriptions
 - **Class "gender"** - Describes the gender of characters. Currently, there are 3 genders in the game.
 
