@@ -6,7 +6,7 @@
 </p>
 <div align="center">
   <a href="https://www.ur.edu.pl/pl/kolegia/kolegium-nauk-przyrodniczych">
-    <img src="for_readme/ur_banner.jpg?">
+    <img src="_for_readme/ur_banner.jpg?">
   </a>
 </div>
 
