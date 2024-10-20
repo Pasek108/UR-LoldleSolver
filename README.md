@@ -217,7 +217,7 @@ The right column of the program is used to generate a query based on the provide
 
 
 #### Fluent editor
-![top_score](/_for_readme/top_score.png)
+![fluent editor](/_for_readme/fluent_editor.png)
 
 The generated query should be pasted into the SPARQL tab and executed. Then, you need to enter the name of the first character from the list into the Loldle game. 
 If the guess is not correct, you need to copy the newly guessed character's data, paste it into the generator, mark the correctness, and once again generate and execute the query.
