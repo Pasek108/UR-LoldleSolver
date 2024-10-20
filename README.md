@@ -113,76 +113,78 @@ This section is a general description of the project required to understand how 
 ### Data sources
 The knowledge base for the project was generated automatically using data collected manually from the website [https://loldle.net/classic](https://loldle.net/classic).
 
+The data was collected by manually entering all possible answers for the Loldle game. These include champion names and their attributes, which were then used to automatically populate the knowledge base using a JavaScript script.
+
 ### Knowledge Base Structure
 
 The key elements of the ontological knowledge base are classes, their instances (individuals), and the relationships between these elements. The database has a flat structure, consisting of 7 classes, 6 relations, and 2 attributes.
 
 #### Class Descriptions
-Class "gender"
+- Class "gender"
 Describes the gender of characters. Currently, there are 3 genders in the game.
 
-Figure 1. Class "gender" and its individuals
+![gender class](/_for_readme/gender_class.png)
 
-Class "position"
+- Class "position"
 Describes the positions a character is currently played in. There are 5 positions in the game, and characters are often played in multiple positions.
 
-Figure 2. Class "position" and its individuals
+![gender class](/_for_readme/position_class.png)
 
-Class "resource"
+- Class "resource"
 Describes the resource used by the character in the game. Currently, characters use one of 13 types of resources.
 
-Figure 3. Class "resource" and its individuals
+![gender class](/_for_readme/resource_class.png)
 
-Class "species"
+- Class "species"
 Describes the species/race of a character. Characters may belong to one or more of 29 species.
 
-Figure 4. Class "species" and its individuals
+![gender class](/_for_readme/species_class.png)
 
-Class "range-type"
+- Class "range-type"
 Describes the attack range of a character.
 
-Figure 5. Class "range-type" and its individuals
+![gender class](/_for_readme/range-type_class.png)
 
-Class "region"
+- Class "region"
 Describes the locations associated with the characters. There are 16 main regions in the game’s lore.
 
-Figure 6. Class "region" and its individuals
+![gender class](/_for_readme/region_class.png)
 
-Class "champion"
+- Class "champion"
 Describes the existing champions. There are 167 champions available for players.
 
-Figures 7, 8, 9, 10, 11, 12. Class "champion" and its individuals
+![gender class](/_for_readme/champion_class.png)
 
 #### Attribute Descriptions
-Attribute "released-in"
+- Attribute "released-in"
 Describes the year of a champion's release.
 
-Attribute "have-importance"
+- Attribute "have-importance"
 Describes the amount of information about a character. This attribute is artificially generated for use in finding the best choice during the Loldle game and does not exist in the game itself.
 
 #### Relationship Descriptions
-Relation "have-gender"
+- Relation "have-gender"
 Links a character to their gender.
 
-Relation "play-in"
+- Relation "play-in"
 Links a character to the positions they are played in.
 
-Relation "use-resource"
+- Relation "use-resource"
 Links a character to the resource they use.
 
-Relation "have-range-type"
+- Relation "have-range-type"
 Links a character to their attack types.
 
-Relation "have-species"
+- Relation "have-species"
 Links a character to their species.
 
-Relation "belong-to"
+- Relation "belong-to"
 Links a character to the regions they are associated with.
 
 #### CNL Diagram
 Below is a CNL diagram of the ontological knowledge base. White rectangles represent classes, green rectangles represent class instances or individuals, and black connections signify class containment. Green connections represent user-defined relationships.
 
-Figure 13. CNL Diagram created using Fluent Editor
+![cnl diagram](/_for_readme/CNL_diagram_2.JPG)
 
 ### User interface
 #### Main menu
