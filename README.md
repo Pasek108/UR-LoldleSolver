@@ -13,13 +13,13 @@
 <br>
 
 ## Table of Contents
-* [Overview](#overview)
+* [Overview](#overview-eye)
   * [About](#about)
   * [Technologies](#technologies)
   * [Features](#features)
   * [Setup](#setup)
   * [How to use](#how-to-use)
-* [Details](#details)
+* [Details](#details-scroll)
   * [Data sources](#data-sources)
   * [Knowledge base structure](#knowledge-base-structure)
   * [SPARQL queries structure](#sparql-queries-structure)
@@ -28,7 +28,7 @@
 
 <br>
 
-## Overview
+## Overview :eye:
 
 ### About
 The project involved creating an ontological knowledge base using real-world data. The chosen environment for this task was [Ontorion Fluent Editor 2015](https://www.cognitum.eu/semantics/fluenteditor/).
@@ -123,7 +123,7 @@ Method 2:
 
 <br>
 
-## Details
+## Details :scroll:
 
 ### Data sources
 The knowledge base for the project was generated automatically using data collected manually from the website [https://loldle.net/classic](https://loldle.net/classic).
