@@ -18,13 +18,16 @@
   * [Technologies](#technologies)
   * [Features](#features)
   * [Setup](#setup)
+  * [How to use](#how-to-use)
+    * [Finding solution](#finding-solution)
+    * [Updating data](#updating-data)
 * [Details](#details)
   * [Data sources](#data-sources)
-  * [Knowledge Base Structure](#knowledge-base-structure)
-    * [Class Descriptions](#class-descriptions)
-    * [Attribute Descriptions](#attribute-descriptions)
-    * [Relationship Descriptions](#relationship-descriptions)
-    * [CNL Diagram](#cnl-diagram)
+  * [Knowledge base structure](#knowledge-base-structure)
+    * [Class descriptions](#class-descriptions)
+    * [Attribute descriptions](#attribute-descriptions)
+    * [Relationship descriptions](#relationship-descriptions)
+    * [CNL diagram](#cnl-diagram)
   * [User interface](#user-interface)
   * [Project structure](#project-structure)
   * [Code organization](#code-organization)
@@ -34,7 +37,7 @@
 ## Overview
 
 ### About
-The project involved creating an ontological knowledge base using real-world data. The chosen environment for this task was Ontorion Fluent Editor 2015.
+The project involved creating an ontological knowledge base using real-world data. The chosen environment for this task was [Ontorion Fluent Editor 2015](https://www.cognitum.eu/semantics/fluenteditor/).
 
 The project focuses on creating a knowledge base about characters from the game League of Legends and using it, along with the Fluent Editor environment, to solve the daily [Loldle game in classic mode](https://loldle.net/classic).
 
@@ -58,52 +61,65 @@ Programs:
 ----------------------------------
 
 ### Features
-- Menu starting animation
-- Mute/unmute sound
-- Menu windows with transitions
-- Credits window
-- Four levels of difficulty
-- Personal and general top 10 leaderboards for each difficulty
-- Countdown on game start
-- Spawning enemies that can hit players
-- Spawning deers that can be hit by enemy or player giving him points
-- Three lives for player
-- Explosion animation of enemy when it is hit by a player
-- Short time protection when enemy hit the player
-- Energy points for using slow motion skill
-- Points counter
-- Player slip and laughing deers animations when player loses all their lives
-- Game over screen and game restart without reloading the page
+- Generating champion data for fluent editor ontology
+- Generating full knowledge base from champion data
+- Adding guessed champions data and marking it
+- Generating SPARQL queries to find best solution
 
 <br>
 
 > [!NOTE]  
 > Room for improvements:
-> - Ability to stop slowmo skill after atleast 1s (now it runs until it uses up all the energy)
-> - Probably rewriting the code (it's an improved version of my old school project and the code is very messy)
-> - Fixing some problems:
->   - Game gets faster or slower depending on device framerate
->   - Sometimes the game starts lagging for few seconds and then again goes smoothly
->   - Sometimes on laughing deers animation, the deer next to player's car starts blinking
+> - Choosing champions instead of copy-pasting its data
+> - Updating champions data from patch notes
+> - Automatically web scraping champions data
 
 ----------------------------------
 
 ### Setup
-Ways to run this program: 
-1. Use the [live demo](https://pas-artur.000webhostapp.com/deer-killer/)
-2. Follow the same steps as for editing the program
-
-To edit this program:
 - Download this repo
-- Download [XAMPP](https://www.apachefriends.org/pl/index.html)
-- Run Apache and MySQL in XAMPP Control Panel
-- Move the project to XAMPP's htdocs folder
-- Open [phpMyAdmin](http://localhost/phpmyadmin/index.php)
-- Click on Import tab
-- Choose deerkiller.sql file from PHP folder in project
-- Click import button at the bottom of the page
-- Open [localhost](http://localhost) and open folder that you previously moved to htdocs
-- Start coding
+- Download [FluentEditor](https://www.cognitum.eu/semantics/fluenteditor/)
+- Start live server ([VSCode LiveServer Extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer), [Prepros](https://prepros.io/) etc.)
+- Open *Ontology.encnl* file
+- Update champions data (see [Updating data](#updating-data))
+
+----------------------------------
+
+### How to use
+
+#### Finding solution
+
+1. Input your guess/es on Loldle
+2. Copy your guessed champion/s data
+3. Paste it to "Guessed champions data" textbox
+4. Click "Add champions" button
+5. Mark your data as it is marked in Loldle (see images below)
+6. Click "Generate SPQRQL" button
+7. Copy generated query
+8. Paste copied query in Fluent Editor SPARQL tab (last one in the bottom)
+9. Execute query using "Execute" button
+10. Input first champion from results to Loldle
+11. If guess wasn't correct, go back to step 2
+
+![loldle guesses](/_for_readme/loldle_guesses.png)
+![marked champions](/_for_readme/marked_champions.png)
+
+#### Updating data 
+
+Method 1:
+1. Copy new or updated champion data
+2. Add new champion name to *data/champions.txt* file
+3. Add new or replace champion data in *data/champions_data.txt* file
+4. Click "Generate all champions"
+5. Replace all data in *Ontology.encnl* file
+
+Method 2:
+1. Copy new or updated champion data
+3. Input champion name in "champion name" input
+4. Input champion data in "champion data" textbox
+5. Click "Generate champion"
+6. Add new or replace existing champion data in *Ontology.encnl* file
+7. Manually add new individuals of new champion if they not exist 
 
 <br>
 
@@ -116,11 +132,11 @@ The data was collected by manually entering all possible answers for the Loldle 
 
 ----------------------------------
 
-### Knowledge Base Structure
+### Knowledge base structure
 
 The key elements of the ontological knowledge base are classes, their instances (individuals), and the relationships between these elements. The database has a flat structure, consisting of 7 classes, 6 relations, and 2 attributes.
 
-#### Class Descriptions
+#### Class descriptions
 - **Class "gender"** - Describes the gender of characters. Currently, there are 3 genders in the game.
 
 ![gender class](/_for_readme/gender_class.png)
@@ -149,11 +165,11 @@ The key elements of the ontological knowledge base are classes, their instances 
 
 ![gender class](/_for_readme/champion_class.png)
 
-#### Attribute Descriptions
+#### Attribute descriptions
 - **Attribute "released-in"** - Describes the year of a champion's release.
 - **Attribute "have-importance"** - Describes the amount of information about a character. This attribute is artificially generated for use in finding the best choice during the Loldle game and does not exist in the game itself.
 
-#### Relationship Descriptions
+#### Relationship descriptions
 - **Relation "have-gender"** - Links a character to their gender.
 - **Relation "play-in"** - Links a character to the positions they are played in.
 - **Relation "use-resource"** - Links a character to the resource they use.
@@ -161,7 +177,7 @@ The key elements of the ontological knowledge base are classes, their instances 
 - **Relation "have-species"** - Links a character to their species.
 - **Relation "belong-to"** - Links a character to the regions they are associated with.
 
-#### CNL Diagram
+#### CNL diagram
 Below is a CNL diagram of the ontological knowledge base. White rectangles represent classes, green rectangles represent class instances or individuals, and black connections signify class containment. Green connections represent user-defined relationships.
 
 ![cnl diagram](/_for_readme/CNL_diagram_2.JPG)
