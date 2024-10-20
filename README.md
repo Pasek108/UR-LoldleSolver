@@ -13,14 +13,15 @@
 <br>
 
 ## Table of Contents
-* [Informations](#informations)
+* [Overview](#overview)
+  * [About](#about)
   * [Technologies](#technologies)
   * [Features](#features)
   * [Setup](#setup)
 * [Details](#details)
   * [Data sources](#data-sources)
   * [Knowledge Base Structure](#knowledge-base-structure)
-    * [Class Descriptions](#class-Descriptions)
+    * [Class Descriptions](#class-descriptions)
     * [Attribute Descriptions](#attribute-descriptions)
     * [Relationship Descriptions](#relationship-descriptions)
     * [CNL Diagram](#cnl-diagram)
@@ -30,12 +31,14 @@
 
 <br>
 
-## Informations
+## Overview
+
+### About
 The project involved creating an ontological knowledge base using real-world data. The chosen environment for this task was Ontorion Fluent Editor 2015.
 
 The project focuses on creating a knowledge base about characters from the game League of Legends and using it, along with the Fluent Editor environment, to solve the daily [Loldle game in classic mode](https://loldle.net/classic).
 
-The knowledge base contains around 1,700 sentences written in CNL (Controlled Natural Language), which is a controlled language specific to the Fluent Editor environment. The data includes character names, regions, resources used by the character, attack range, gender, species, release year, and the character's in-game position. The database was generated automatically using data collected manually from the Loldle game website.
+The knowledge base contains around 1,700 sentences written in CNL (Controlled Natural Language), which is a controlled language specific to the Fluent Editor environment. The data includes character names, regions, resources used by the character, attack range, gender, species, release year, and the character's in-game position.
 
 ![preview](/_for_readme/preview.png)
 
@@ -108,7 +111,7 @@ To edit this program:
 This section is a general description of the project required to understand how it works, the exact details are in the code or simply are the code.
 
 ### Data sources
-The project was based on information from the website [https://loldle.net/classic](https://loldle.net/classic).
+The knowledge base for the project was generated automatically using data collected manually from the website [https://loldle.net/classic](https://loldle.net/classic).
 
 ### Knowledge Base Structure
 
