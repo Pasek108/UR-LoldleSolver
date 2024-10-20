@@ -19,18 +19,11 @@
   * [Features](#features)
   * [Setup](#setup)
   * [How to use](#how-to-use)
-    * [Finding solution](#finding-solution)
-    * [Updating data](#updating-data)
 * [Details](#details)
   * [Data sources](#data-sources)
   * [Knowledge base structure](#knowledge-base-structure)
-    * [Class descriptions](#class-descriptions)
-    * [Attribute descriptions](#attribute-descriptions)
-    * [Relationship descriptions](#relationship-descriptions)
-    * [CNL diagram](#cnl-diagram)
   * [User interface](#user-interface)
   * [Project structure](#project-structure)
-  * [Code organization](#code-organization)
 
 <br>
 
