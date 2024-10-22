@@ -13,17 +13,17 @@
 <br>
 
 ## Table of Contents
-* [Overview](#overview-eye)
+* [Overview :eye:](#overview-eye)
   * [About](#about)
   * [Technologies](#technologies)
   * [Features](#features)
   * [Setup](#setup)
   * [How to use](#how-to-use)
-* [Details](#details-scroll)
+* [Details :scroll:](#details-scroll)
+  * [User interface](#user-interface)
   * [Data sources](#data-sources)
   * [Knowledge base structure](#knowledge-base-structure)
   * [SPARQL queries structure](#sparql-queries-structure)
-  * [User interface](#user-interface)
   * [Project structure](#project-structure)
 
 <br>
@@ -99,8 +99,8 @@ Programs:
 11. If guess wasn't correct, go back to step 2
 
 <br>
-<img alt="loldle guesses" src="/_for_readme/loldle_guesses.png" width="500px">
-<img alt="marked champions" src="/_for_readme/marked_champions.png" width="500px">
+<img alt="loldle guesses" src="/_for_readme/Details/loldle_guesses.png" width="500px">
+<img alt="marked champions" src="/_for_readme/Details/marked_champions.png" width="500px">
 
 For more data check [Middle column](#middle-column) section
 
@@ -126,6 +126,53 @@ Method 2:
 
 ## Details :scroll:
 
+### User interface
+#### Solver
+![main screen](/_for_readme/UI/main_screen.png)
+
+Creating a query manually is a time-consuming task that requires knowledge of SPARQL and ensuring accuracy. 
+Therefore, a query generator was prepared, allowing queries to be generated based on data copied from the Loldle website.
+
+##### Left column
+The left column of the generator allows for the generation of a new character's ontology by entering their name and copied data, or the entire knowledge base based on data in the files *champions.txt* and *champions_data.txt* in the */data* folder.
+
+##### Middle column
+The middle column is used to create containers with character data by pasting data copied from the website. 
+
+It is possible to paste data for multiple characters at once, for example, if the player wants to use the program as a hint after several incorrect guesses, or to paste data one by one as characters are guessed with the help of the program.
+
+Next, by clicking on the containers, the player must reflect the correctness of the guessed character's data. The data has three types:
+• Red – incorrect, none of the data in the square is correct
+• Yellow – partially correct, at least one thing is correct but something is missing or doesn't fit
+• Green – correct guess
+
+- The order of the characters does not matter.
+- Repetitions do not affect the program's operation.
+- Once the correct data is marked in the column, you do not need to mark it again in other guesses.
+- Unwanted containers can be deleted by clicking the X icon.
+
+##### Right column
+The right column of the program is used to generate a query based on the provided data by pressing the "Generate SPARQL" button.
+
+----------------------------------
+
+#### Fluent editor
+![fluent editor](/_for_readme/UI/fluent_editor.png)
+
+The generated query should be pasted into the SPARQL tab and executed. Then, you need to enter the name of the first character from the list into the Loldle game. 
+If the guess is not correct, you need to copy the newly guessed character's data, paste it into the generator, mark the correctness, and once again generate and execute the query.
+
+##### Document area
+Document is a section for all knowledge base in the ontology. It contains all data about champions and everything associated with them.
+
+##### Taxonomy tree
+Taxonomy tree is a tree representation of all existing types of data and its individuals.
+
+##### SPARQL tab
+You can acces it at the bottom of the window. It's a tab where you must paste the generated query and execute it to get the most probable results.
+
+----------------------------------
+
 ### Data sources
 The knowledge base for the project was generated automatically using data collected manually from the website [https://loldle.net/classic](https://loldle.net/classic).
 
@@ -140,43 +187,43 @@ The key elements of the ontological knowledge base are classes, their instances 
 #### Class descriptions
 - **Class "gender"** - Describes the gender of characters. Currently, there are 3 genders in the game.
 
-![gender class](/_for_readme/gender_class.png)
+![gender class](/_for_readme/Details/gender_class.png)
 
 <br>
 
 - **Class "position"** - Describes the positions a character is currently played in. There are 5 positions in the game, and characters are often played in multiple positions.
 
-![gender class](/_for_readme/position_class.png)
+![gender class](/_for_readme/Details/position_class.png)
 
 <br>
 
 - **Class "resource"** - Describes the resource used by the character in the game. Currently, characters use one of 13 types of resources.
 
-![gender class](/_for_readme/resource_class.png)
+![gender class](/_for_readme/Details/resource_class.png)
 
 <br>
 
 - **Class "species"** - Describes the species/race of a character. Characters may belong to one or more of 29 species.
 
-![gender class](/_for_readme/species_class.png)
+![gender class](/_for_readme/Details/species_class.png)
 
 <br>
 
 - **Class "range-type"** - Describes the attack range of a character.
 
-![gender class](/_for_readme/range-type_class.png)
+![gender class](/_for_readme/Details/range-type_class.png)
 
 <br>
 
 - **Class "region"** - Describes the locations associated with the characters. There are 16 main regions in the game’s lore.
 
-![gender class](/_for_readme/region_class.png)
+![gender class](/_for_readme/Details/region_class.png)
 
 <br>
 
 - **Class "champion"** - Describes the existing champions. There are 167 champions available for players.
 
-![gender class](/_for_readme/champion_class.png)
+![gender class](/_for_readme/Details/champion_class.png)
 
 
 #### Attribute descriptions
@@ -196,7 +243,7 @@ The key elements of the ontological knowledge base are classes, their instances 
 #### CNL diagram
 Below is a CNL diagram of the ontological knowledge base. White rectangles represent classes, green rectangles represent class instances or individuals, and black connections signify class containment. Green connections represent user-defined relationships.
 
-![cnl diagram](/_for_readme/CNL_diagram_2.JPG)
+![cnl diagram](/_for_readme/Details/CNL_diagram_2.JPG)
 
 ----------------------------------
 
@@ -315,53 +362,6 @@ SELECT ?x {
     ?x :hasImportance ?ord.
 } ORDER BY DESC(?ord)
 ```
-
-----------------------------------
-
-### User interface
-#### Solver
-![main screen](/_for_readme/main_screen.png)
-
-Creating a query manually is a time-consuming task that requires knowledge of SPARQL and ensuring accuracy. 
-Therefore, a query generator was prepared, allowing queries to be generated based on data copied from the Loldle website.
-
-##### Left column
-The left column of the generator allows for the generation of a new character's ontology by entering their name and copied data, or the entire knowledge base based on data in the files *champions.txt* and *champions_data.txt* in the */data* folder.
-
-##### Middle column
-The middle column is used to create containers with character data by pasting data copied from the website. 
-
-It is possible to paste data for multiple characters at once, for example, if the player wants to use the program as a hint after several incorrect guesses, or to paste data one by one as characters are guessed with the help of the program.
-
-Next, by clicking on the containers, the player must reflect the correctness of the guessed character's data. The data has three types:
-• Red – incorrect, none of the data in the square is correct
-• Yellow – partially correct, at least one thing is correct but something is missing or doesn't fit
-• Green – correct guess
-
-- The order of the characters does not matter.
-- Repetitions do not affect the program's operation.
-- Once the correct data is marked in the column, you do not need to mark it again in other guesses.
-- Unwanted containers can be deleted by clicking the X icon.
-
-##### Right column
-The right column of the program is used to generate a query based on the provided data by pressing the "Generate SPARQL" button.
-
-----------------------------------
-
-#### Fluent editor
-![fluent editor](/_for_readme/fluent_editor.png)
-
-The generated query should be pasted into the SPARQL tab and executed. Then, you need to enter the name of the first character from the list into the Loldle game. 
-If the guess is not correct, you need to copy the newly guessed character's data, paste it into the generator, mark the correctness, and once again generate and execute the query.
-
-##### Document area
-Document is a section for all knowledge base in the ontology. It contains all data about champions and everything associated with them.
-
-##### Taxonomy tree
-Taxonomy tree is a tree representation of all existing types of data and its individuals.
-
-##### SPARQL tab
-You can acces it at the bottom of the window. It's a tab where you must paste the generated query and execute it to get the most probable results.
 
 ----------------------------------
 
