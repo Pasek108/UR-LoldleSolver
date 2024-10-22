@@ -33,7 +33,7 @@
 ### About
 The project involved creating an ontological knowledge base using real-world data. The chosen environment for this task was [Ontorion Fluent Editor 2015](https://www.cognitum.eu/semantics/fluenteditor/).
 
-The project focuses on creating a knowledge base about characters from the game League of Legends and using it, along with the Fluent Editor environment, to solve the daily [Loldle game in classic mode](https://loldle.net/classic).
+This project creates a knowledge base of characters from League of Legends and uses the Fluent Editor environment to help solve the daily [Loldle game in classic mode](https://loldle.net/classic).
 
 The knowledge base contains around 1,700 sentences written in CNL (Controlled Natural Language), which is a controlled language specific to the Fluent Editor environment. The data includes character names, regions, resources used by the character, attack range, gender, species, release year, and the character's in-game position.
 
@@ -57,10 +57,10 @@ Programs:
 ----------------------------------
 
 ### Features
-- Generating champion data for fluent editor ontology
-- Generating full knowledge base from champion data
-- Adding guessed champions data and marking it
-- Generating SPARQL queries to find best solution
+- Generating champion data for the Fluent Editor ontology
+- Generating the full knowledge base from champion data
+- Adding guessed champion data and marking it
+- Generating SPARQL queries to find the best solution
 
 <br>
 
@@ -139,12 +139,13 @@ The left column of the generator allows for the generation of a new character's 
 ##### Middle column
 The middle column is used to create containers with character data by pasting data copied from the website. 
 
-It is possible to paste data for multiple characters at once, for example, if the player wants to use the program as a hint after several incorrect guesses, or to paste data one by one as characters are guessed with the help of the program.
+It is possible to paste data for multiple characters at once, for example, if the player wants to use the program as a hint after several incorrect guesses, or to paste data one by one as characters are guessed with the help of the program. Next, by clicking on the containers, the player must reflect the correctness of the guessed character's data. 
 
-Next, by clicking on the containers, the player must reflect the correctness of the guessed character's data. The data has three types:
-• Red – incorrect, none of the data in the square is correct
-• Yellow – partially correct, at least one thing is correct but something is missing or doesn't fit
-• Green – correct guess
+The data is categorized into three types:
+- **Red** – Incorrect, none of the data in the square is correct.
+- **Yellow** – Partially correct, at least one element is correct, but some information is missing or incorrect.
+- **Green** – Correct, all data matches.
+
 
 - The order of the characters does not matter.
 - Repetitions do not affect the program's operation.
@@ -293,7 +294,7 @@ select ?x ?y {
 ```
 <br>
 
-**Exapmle final query in less accurate form:**
+**Example final query in less accurate form:**
 
 - A query listing champions sorted by importance, who are male, not played in the jungle, played in support or top lane, not being undead, demons, or spirits, use mana, fight in melee, do not belong to the regions of Camavor, the Shadow Isles, Bilgewater, or Runeterra, and were released after 2015.
 ```SPARQL
@@ -320,7 +321,7 @@ SELECT ?x {
 ```
 <br>
 
-**Exapmle final query in more accurate form:**
+**Example final query in more accurate form:**
 
 - A query listing champions sorted by importance, who are male and not any other gender, played in the jungle and not any other position, not being vastayan, darkin, human or magically altered, use mana and not any other resource, fight in melee and not any other range-type, belongs to at least one the regions of Ionia, Noxus, Runeterra or Shurima, and were released before 2017.
 ```SPARQL
