@@ -146,7 +146,7 @@ The data is categorized into three types:
 - **Yellow** – Partially correct, at least one element is correct, but some information is missing or incorrect.
 - **Green** – Correct, all data matches.
 
-
+About data:
 - The order of the characters does not matter.
 - Repetitions do not affect the program's operation.
 - Once the correct data is marked in the column, you do not need to mark it again in other guesses.
