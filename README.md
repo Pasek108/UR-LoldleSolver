@@ -12,8 +12,8 @@
 
 <br>
 
-## Table of Contents
-* [Overview :eye:](#overview-eye)
+# Table of Contents
+* [Overview :sparkles:](#overview-sparkles)
   * [About](#about)
   * [Technologies](#technologies)
   * [Features](#features)
@@ -28,9 +28,9 @@
 
 <br>
 
-## Overview :eye:
+# Overview :sparkles:
 
-### About
+## About
 The project involved creating an ontological knowledge base using real-world data. The chosen environment for this task was [Ontorion Fluent Editor 2015](https://www.cognitum.eu/semantics/fluenteditor/).
 
 This project creates a knowledge base of characters from League of Legends and uses the Fluent Editor environment to help solve the daily [Loldle game in classic mode](https://loldle.net/classic).
@@ -41,9 +41,7 @@ The knowledge base contains around 1,700 sentences written in CNL (Controlled Na
 
 ![preview](/_for_readme/preview.png)
 
-----------------------------------
-
-### Technologies
+## Technologies
 Languages:
 - HTML
 - CSS
@@ -53,10 +51,8 @@ Languages:
 Programs:
 - [FluentEditor](https://www.cognitum.eu/semantics/fluenteditor/)
 - [VSCode](https://code.visualstudio.com)
-  
-----------------------------------
 
-### Features
+## Features
 - Generating champion data for the Fluent Editor ontology
 - Generating the full knowledge base from champion data
 - Adding guessed champion data and marking it
@@ -71,21 +67,16 @@ Programs:
 > - Automatically web scraping champions data
 > - More games (Dotadle, Pokedle etc.)
 
-----------------------------------
-
-### Setup
+## Setup
 - Download this repo
 - Download [FluentEditor](https://www.cognitum.eu/semantics/fluenteditor/)
 - Start live server ([VSCode LiveServer Extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer), [Prepros](https://prepros.io/) etc.)
 - Open *Ontology.encnl* file
 - Update champions data (see [Updating data](#updating-data))
 
-----------------------------------
+## How to use
 
-### How to use
-
-#### Finding solution
-
+### Finding solution
 1. Input your guess/es on Loldle
 2. Copy your guessed champion/s data
 3. Paste it to "Guessed champions data" textbox
@@ -104,8 +95,7 @@ Programs:
 
 For more data check [Middle column](#middle-column) section
 
-
-#### Updating data 
+### Updating data 
 
 Method 1:
 1. Copy new or updated champion data
@@ -124,19 +114,19 @@ Method 2:
 
 <br>
 
-## Details :scroll:
+# Details :scroll:
 
-### User interface
-#### Solver
+## User interface
+### Solver
 ![main screen](/_for_readme/UI/main_screen.png)
 
 Creating a query manually is a time-consuming task that requires knowledge of SPARQL and ensuring accuracy. 
 Therefore, a query generator was prepared, allowing queries to be generated based on data copied from the Loldle website.
 
-##### Left column
+#### Left column
 The left column of the generator allows for the generation of a new character's ontology by entering their name and copied data, or the entire knowledge base based on data in the files *champions.txt* and *champions_data.txt* in the */data* folder.
 
-##### Middle column
+#### Middle column
 The middle column is used to create containers with character data by pasting data copied from the website. 
 
 It is possible to paste data for multiple characters at once, for example, if the player wants to use the program as a hint after several incorrect guesses, or to paste data one by one as characters are guessed with the help of the program. Next, by clicking on the containers, the player must reflect the correctness of the guessed character's data. 
@@ -152,40 +142,36 @@ About data:
 - Once the correct data is marked in the column, you do not need to mark it again in other guesses.
 - Unwanted containers can be deleted by clicking the X icon.
 
-##### Right column
+#### Right column
 The right column of the program is used to generate a query based on the provided data by pressing the "Generate SPARQL" button.
 
-----------------------------------
+<br>
 
-#### Fluent editor
+### Fluent editor
 ![fluent editor](/_for_readme/UI/fluent_editor.png)
 
 The generated query should be pasted into the SPARQL tab and executed. Then, you need to enter the name of the first character from the list into the Loldle game. 
 If the guess is not correct, you need to copy the newly guessed character's data, paste it into the generator, mark the correctness, and once again generate and execute the query.
 
-##### Document area
+#### Document area
 Document is a section for all knowledge base in the ontology. It contains all data about champions and everything associated with them.
 
-##### Taxonomy tree
+#### Taxonomy tree
 Taxonomy tree is a tree representation of all existing types of data and its individuals.
 
-##### SPARQL tab
+#### SPARQL tab
 You can acces it at the bottom of the window. It's a tab where you must paste the generated query and execute it to get the most probable results.
 
-----------------------------------
-
-### Data sources
+## Data sources
 The knowledge base for the project was generated automatically using data collected manually from the website [https://loldle.net/classic](https://loldle.net/classic).
 
 The data was collected by manually entering all possible answers for the Loldle game. These include champion names and their attributes, which were then used to automatically populate the knowledge base using a JavaScript script.
 
-----------------------------------
-
-### Knowledge base structure
+## Knowledge base structure
 
 The key elements of the ontological knowledge base are classes, their instances (individuals), and the relationships between these elements. The database has a flat structure, consisting of 7 classes, 6 relations, and 2 attributes.
 
-#### Class descriptions
+### Class descriptions
 - **Class "gender"** - Describes the gender of characters. Currently, there are 3 genders in the game.
 
 ![gender class](/_for_readme/Details/gender_class.png)
@@ -227,12 +213,12 @@ The key elements of the ontological knowledge base are classes, their instances 
 ![gender class](/_for_readme/Details/champion_class.png)
 
 
-#### Attribute descriptions
+### Attribute descriptions
 - **Attribute "released-in"** - Describes the year of a champion's release.
 - **Attribute "have-importance"** - Describes the amount of information about a character. This attribute is artificially generated for use in finding the best choice during the Loldle game and does not exist in the game itself.
 
 
-#### Relationship descriptions
+### Relationship descriptions
 - **Relation "have-gender"** - Links a character to their gender.
 - **Relation "play-in"** - Links a character to the positions they are played in.
 - **Relation "use-resource"** - Links a character to the resource they use.
@@ -241,14 +227,12 @@ The key elements of the ontological knowledge base are classes, their instances 
 - **Relation "belong-to"** - Links a character to the regions they are associated with.
 
 
-#### CNL diagram
+### CNL diagram
 Below is a CNL diagram of the ontological knowledge base. White rectangles represent classes, green rectangles represent class instances or individuals, and black connections signify class containment. Green connections represent user-defined relationships.
 
 ![cnl diagram](/_for_readme/Details/CNL_diagram_2.JPG)
 
-----------------------------------
-
-### SPARQL queries structure
+## SPARQL queries structure
 
 The query generated by program is based on functionalities presented below in form of small queries.
 
@@ -364,9 +348,7 @@ SELECT ?x {
 } ORDER BY DESC(?ord)
 ```
 
-----------------------------------
-
-### Project structure
+## Project structure
 The project directory tree looks like this:
 - :file_folder: UR-LoldleSolver (project folder)
   - :page_facing_up: *github config*
