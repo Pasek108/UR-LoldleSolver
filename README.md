@@ -76,6 +76,23 @@ Programs:
 
 ## How to use
 
+### Updating data 
+
+Method 1:
+1. Copy new or updated champion data
+2. Add new champion name to *data/champions.txt* file
+3. Add new or replace champion data in *data/champions_data.txt* file
+4. Click "Generate all champions"
+5. Replace all data in *Ontology.encnl* file
+
+Method 2:
+1. Copy new or updated champion data
+3. Input champion name in "champion name" input
+4. Input champion data in "champion data" textbox
+5. Click "Generate champion"
+6. Add new or replace existing champion data in *Ontology.encnl* file
+7. Manually add new individuals of new champion if they not exist 
+
 ### Finding solution
 1. Input your guess/es on Loldle
 2. Copy your guessed champion/s data
@@ -94,23 +111,6 @@ Programs:
 <img alt="marked champions" src="/_for_readme/Details/marked_champions.png" width="500px">
 
 For more data check [Middle column](#middle-column) section
-
-### Updating data 
-
-Method 1:
-1. Copy new or updated champion data
-2. Add new champion name to *data/champions.txt* file
-3. Add new or replace champion data in *data/champions_data.txt* file
-4. Click "Generate all champions"
-5. Replace all data in *Ontology.encnl* file
-
-Method 2:
-1. Copy new or updated champion data
-3. Input champion name in "champion name" input
-4. Input champion data in "champion data" textbox
-5. Click "Generate champion"
-6. Add new or replace existing champion data in *Ontology.encnl* file
-7. Manually add new individuals of new champion if they not exist 
 
 <br>
 
@@ -144,8 +144,6 @@ About data:
 
 #### Right column
 The right column of the program is used to generate a query based on the provided data by pressing the "Generate SPARQL" button.
-
-<br>
 
 ### Fluent editor
 ![fluent editor](/_for_readme/UI/fluent_editor.png)
@@ -349,7 +347,6 @@ SELECT ?x {
 ```
 
 ## Project structure
-The project directory tree looks like this:
 - :file_folder: UR-LoldleSolver (project folder)
   - :page_facing_up: *github config*
   - :page_facing_up: *readme file*
