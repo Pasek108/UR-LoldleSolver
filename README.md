@@ -15,8 +15,8 @@
 # Table of Contents
 * [Overview :sparkles:](#overview-sparkles)
   * [About](#about)
-  * [Technologies](#technologies)
   * [Features](#features)
+  * [Technologies](#technologies)
   * [Setup](#setup)
   * [How to use](#how-to-use)
 * [Details :scroll:](#details-scroll)
@@ -41,17 +41,6 @@ The knowledge base contains around 1,700 sentences written in CNL (Controlled Na
 
 ![preview](/_for_readme/preview.png)
 
-## Technologies
-Languages:
-- HTML
-- CSS
-- JS
-- SPARQL
-  
-Programs:
-- [FluentEditor](https://www.cognitum.eu/semantics/fluenteditor/)
-- [VSCode](https://code.visualstudio.com)
-
 ## Features
 - Generating champion data for the Fluent Editor ontology
 - Generating the full knowledge base from champion data
@@ -64,6 +53,17 @@ Programs:
 > - Updating champions data from patch notes
 > - Automatically web scraping champions data
 > - More games (Dotadle, Pokedle etc.)
+
+## Technologies
+Languages:
+- HTML
+- CSS
+- JS
+- SPARQL
+  
+Programs:
+- [FluentEditor](https://www.cognitum.eu/semantics/fluenteditor/)
+- [VSCode](https://code.visualstudio.com)
 
 ## Setup
 - Download this repo
