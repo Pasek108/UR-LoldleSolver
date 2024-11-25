@@ -47,6 +47,8 @@ The knowledge base contains around 1,700 sentences written in CNL (Controlled Na
 - Adding guessed champion data and marking it
 - Generating SPARQL queries to find the best solution
 
+<br>
+
 > [!NOTE]  
 > Room for improvements:
 > - Choosing champions instead of copy-pasting its data
