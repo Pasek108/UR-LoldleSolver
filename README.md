@@ -58,8 +58,6 @@ Programs:
 - Adding guessed champion data and marking it
 - Generating SPARQL queries to find the best solution
 
-<br>
-
 > [!NOTE]  
 > Room for improvements:
 > - Choosing champions instead of copy-pasting its data
