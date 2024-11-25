@@ -42,10 +42,10 @@ generate_SPARQL_button.addEventListener("click", () => {
 getChampionsData()
 
 function getChampionsData() {
-  fetch("./data/champions_data.txt")
+  fetch("../data/champions_data.txt")
     .then((res) => res.text())
     .then((champions_data) => {
-      fetch("./data/champions.txt")
+      fetch("../data/champions.txt")
         .then((res) => res.text())
         .then((champions) => {
           fluent_data_output.value = ""
