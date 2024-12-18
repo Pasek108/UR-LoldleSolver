@@ -40,6 +40,16 @@ Melee
 Runeterra
 2009
 
+Female
+Jungle,
+Top
+Human
+Energy
+Melee
+Noxus,
+Piltover
+2024
+
 Male
 Jungle
 Undead,

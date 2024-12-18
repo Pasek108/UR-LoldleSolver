@@ -3,6 +3,7 @@ Ahri
 Akali
 Akshan
 Alistar
+Ambessa
 Amumu
 Anivia
 Annie

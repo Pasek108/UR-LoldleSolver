@@ -74,12 +74,12 @@ Comment:
 Runeterra is a region.
 Shurima is a region.
 Ionia is a region.
-Freljord is a region.
 Noxus is a region.
+Piltover is a region.
+Freljord is a region.
 Targon is a region.
 Void is a region.
 Zaun is a region.
-Piltover is a region.
 Bandle-City is a region.
 Shadow-Isles is a region.
 Demacia is a region.
@@ -139,6 +139,16 @@ Alistar has-range-type Melee.
 Alistar belongs-to Runeterra.
 Alistar released-in equal-to 2009.
 Alistar has-importance equal-to 6.
+
+Ambessa is a champion.
+Ambessa has-gender Female.
+Ambessa plays-in Jungle and plays-in Top.
+Ambessa has-species Human.
+Ambessa uses-resource Energy.
+Ambessa has-range-type Melee.
+Ambessa belongs-to Noxus and belongs-to Piltover.
+Ambessa released-in equal-to 2024.
+Ambessa has-importance equal-to 8.
 
 Amumu is a champion.
 Amumu has-gender Male.
@@ -1769,5 +1779,4 @@ Zyra has-range-type Ranged.
 Zyra belongs-to Ixtal.
 Zyra released-in equal-to 2012.
 Zyra has-importance equal-to 6.
-
 
