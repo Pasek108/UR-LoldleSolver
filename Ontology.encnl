@@ -1,8 +1,4 @@
-﻿Title: 'League of legends'.
-Author: 'Artur Pas'.
-Namespace: 'http://ontorion.com/namespace'.
-
-Comment:
+﻿Comment:
 ---------------- Gender ----------------.
 Male is a gender.
 Female is a gender.
@@ -112,13 +108,13 @@ Ahri has-importance equal-to 6.
 
 Akali is a champion.
 Akali has-gender Female.
-Akali plays-in Middle and plays-in Top.
+Akali plays-in Middle.
 Akali has-species Human.
 Akali uses-resource Energy.
 Akali has-range-type Melee.
 Akali belongs-to Ionia.
 Akali released-in equal-to 2010.
-Akali has-importance equal-to 7.
+Akali has-importance equal-to 6.
 
 Akshan is a champion.
 Akshan has-gender Male.
@@ -262,13 +258,13 @@ Blitzcrank has-importance equal-to 6.
 
 Brand is a champion.
 Brand has-gender Male.
-Brand plays-in Jungle and plays-in Middle and plays-in Support.
+Brand plays-in Support.
 Brand has-species Human and has-species Magically-Altered.
 Brand uses-resource Mana.
 Brand has-range-type Ranged.
 Brand belongs-to Freljord and belongs-to Runeterra.
 Brand released-in equal-to 2011.
-Brand has-importance equal-to 10.
+Brand has-importance equal-to 8.
 
 Braum is a champion.
 Braum has-gender Male.
@@ -332,13 +328,13 @@ Cho-Gath has-importance equal-to 6.
 
 Corki is a champion.
 Corki has-gender Male.
-Corki plays-in Middle.
+Corki plays-in Middle and plays-in Bottom.
 Corki has-species Yordle.
 Corki uses-resource Mana.
 Corki has-range-type Ranged.
 Corki belongs-to Bandle-City and belongs-to Piltover.
 Corki released-in equal-to 2009.
-Corki has-importance equal-to 7.
+Corki has-importance equal-to 8.
 
 Darius is a champion.
 Darius has-gender Male.
@@ -462,13 +458,13 @@ Miss-Fortune has-importance equal-to 6.
 
 Twisted-Fate is a champion.
 Twisted-Fate has-gender Male.
-Twisted-Fate plays-in Middle and plays-in Top.
+Twisted-Fate plays-in Middle.
 Twisted-Fate has-species Human and has-species Magicborn.
 Twisted-Fate uses-resource Mana.
 Twisted-Fate has-range-type Ranged.
 Twisted-Fate belongs-to Bilgewater.
 Twisted-Fate released-in equal-to 2009.
-Twisted-Fate has-importance equal-to 8.
+Twisted-Fate has-importance equal-to 7.
 
 Galio is a champion.
 Galio has-gender Male.
@@ -532,13 +528,13 @@ Graves has-importance equal-to 6.
 
 Gwen is a champion.
 Gwen has-gender Female.
-Gwen plays-in Top.
+Gwen plays-in Top and plays-in Jungle.
 Gwen has-species Human and has-species Magically-Altered.
 Gwen uses-resource Mana.
 Gwen has-range-type Melee.
 Gwen belongs-to Camavor and belongs-to Shadow-Isles.
 Gwen released-in equal-to 2021.
-Gwen has-importance equal-to 8.
+Gwen has-importance equal-to 9.
 
 Renata-Glasc is a champion.
 Renata-Glasc has-gender Female.
@@ -572,13 +568,13 @@ Heimerdinger has-importance equal-to 7.
 
 Hwei is a champion.
 Hwei has-gender Male.
-Hwei plays-in Middle and plays-in Support.
+Hwei plays-in Middle.
 Hwei has-species Human and has-species Magicborn.
 Hwei uses-resource Mana.
 Hwei has-range-type Ranged.
 Hwei belongs-to Ionia.
 Hwei released-in equal-to 2023.
-Hwei has-importance equal-to 8.
+Hwei has-importance equal-to 7.
 
 Illaoi is a champion.
 Illaoi has-gender Female.
@@ -912,13 +908,13 @@ Lux has-importance equal-to 8.
 
 Malphite is a champion.
 Malphite has-gender Male.
-Malphite plays-in Middle and plays-in Top.
+Malphite plays-in Top.
 Malphite has-species Golem.
 Malphite uses-resource Mana.
 Malphite has-range-type Melee.
 Malphite belongs-to Ixtal and belongs-to Shurima.
 Malphite released-in equal-to 2009.
-Malphite has-importance equal-to 8.
+Malphite has-importance equal-to 7.
 
 Malzahar is a champion.
 Malzahar has-gender Male.
@@ -932,7 +928,7 @@ Malzahar has-importance equal-to 8.
 
 Maokai is a champion.
 Maokai has-gender Male.
-Maokai plays-in Jungle and plays-in Support.
+Maokai plays-in Top and plays-in Support.
 Maokai has-species Spirit.
 Maokai uses-resource Mana.
 Maokai has-range-type Melee.
@@ -949,6 +945,16 @@ Master-Yi has-range-type Melee.
 Master-Yi belongs-to Ionia.
 Master-Yi released-in equal-to 2009.
 Master-Yi has-importance equal-to 7.
+
+Mel is a champion.
+Mel has-gender Female.
+Mel plays-in Middle and plays-in Support.
+Mel has-species Human and has-species Magically-Altered.
+Mel uses-resource Mana.
+Mel has-range-type Ranged.
+Mel belongs-to Noxus and belongs-to Piltover.
+Mel released-in equal-to 2025.
+Mel has-importance equal-to 9.
 
 Milio is a champion.
 Milio has-gender Male.
@@ -1102,13 +1108,13 @@ Pantheon has-importance equal-to 8.
 
 Poppy is a champion.
 Poppy has-gender Female.
-Poppy plays-in Jungle and plays-in Support and plays-in Top.
+Poppy plays-in Support and plays-in Top.
 Poppy has-species Yordle.
 Poppy uses-resource Mana.
 Poppy has-range-type Melee.
 Poppy belongs-to Demacia.
 Poppy released-in equal-to 2010.
-Poppy has-importance equal-to 8.
+Poppy has-importance equal-to 7.
 
 Pyke is a champion.
 Pyke has-gender Male.
@@ -1132,13 +1138,13 @@ Qiyana has-importance equal-to 7.
 
 Quinn is a champion.
 Quinn has-gender Female.
-Quinn plays-in Middle and plays-in Top.
+Quinn plays-in Top.
 Quinn has-species Human.
 Quinn uses-resource Mana.
 Quinn has-range-type Ranged.
 Quinn belongs-to Demacia.
 Quinn released-in equal-to 2013.
-Quinn has-importance equal-to 7.
+Quinn has-importance equal-to 6.
 
 Rakan is a champion.
 Rakan has-gender Male.
@@ -1342,23 +1348,23 @@ Sivir has-importance equal-to 6.
 
 Skarner is a champion.
 Skarner has-gender Male.
-Skarner plays-in Jungle and plays-in Top.
+Skarner plays-in Jungle.
 Skarner has-species Brackern.
 Skarner uses-resource Mana.
 Skarner has-range-type Melee.
 Skarner belongs-to Ixtal.
 Skarner released-in equal-to 2011.
-Skarner has-importance equal-to 7.
+Skarner has-importance equal-to 6.
 
 Smolder is a champion.
 Smolder has-gender Male.
-Smolder plays-in Bottom.
+Smolder plays-in Bottom and plays-in Middle.
 Smolder has-species Dragon.
 Smolder uses-resource Mana.
 Smolder has-range-type Ranged.
 Smolder belongs-to Camavor and belongs-to Noxus.
 Smolder released-in equal-to 2024.
-Smolder has-importance equal-to 7.
+Smolder has-importance equal-to 8.
 
 Sona is a champion.
 Sona has-gender Female.
@@ -1392,13 +1398,13 @@ Swain has-importance equal-to 7.
 
 Sylas is a champion.
 Sylas has-gender Male.
-Sylas plays-in Jungle and plays-in Middle.
+Sylas plays-in Middle.
 Sylas has-species Human and has-species Magicborn.
 Sylas uses-resource Mana.
 Sylas has-range-type Melee.
 Sylas belongs-to Demacia and belongs-to Freljord.
 Sylas released-in equal-to 2019.
-Sylas has-importance equal-to 9.
+Sylas has-importance equal-to 8.
 
 Syndra is a champion.
 Syndra has-gender Female.
@@ -1442,13 +1448,13 @@ Taric has-importance equal-to 8.
 
 Teemo is a champion.
 Teemo has-gender Male.
-Teemo plays-in Top.
+Teemo plays-in Top and plays-in Jungle.
 Teemo has-species Yordle.
 Teemo uses-resource Mana.
 Teemo has-range-type Ranged.
 Teemo belongs-to Bandle-City.
 Teemo released-in equal-to 2009.
-Teemo has-importance equal-to 6.
+Teemo has-importance equal-to 7.
 
 Thresh is a champion.
 Thresh has-gender Male.
@@ -1462,13 +1468,13 @@ Thresh has-importance equal-to 6.
 
 Tristana is a champion.
 Tristana has-gender Female.
-Tristana plays-in Bottom and plays-in Middle.
+Tristana plays-in Bottom.
 Tristana has-species Yordle.
 Tristana uses-resource Mana.
 Tristana has-range-type Ranged.
 Tristana belongs-to Bandle-City.
 Tristana released-in equal-to 2009.
-Tristana has-importance equal-to 7.
+Tristana has-importance equal-to 6.
 
 Trundle is a champion.
 Trundle has-gender Male.
@@ -1532,13 +1538,13 @@ Varus has-importance equal-to 9.
 
 Vayne is a champion.
 Vayne has-gender Female.
-Vayne plays-in Bottom and plays-in Top.
+Vayne plays-in Bottom.
 Vayne has-species Human.
 Vayne uses-resource Mana.
 Vayne has-range-type Ranged.
 Vayne belongs-to Demacia.
 Vayne released-in equal-to 2011.
-Vayne has-importance equal-to 7.
+Vayne has-importance equal-to 6.
 
 Veigar is a champion.
 Veigar has-gender Male.
@@ -1712,13 +1718,13 @@ Yuumi has-importance equal-to 7.
 
 Zac is a champion.
 Zac has-gender Male.
-Zac plays-in Jungle and plays-in Top.
+Zac plays-in Jungle.
 Zac has-species Golem.
 Zac uses-resource Health-Costs.
 Zac has-range-type Melee.
 Zac belongs-to Zaun.
 Zac released-in equal-to 2013.
-Zac has-importance equal-to 7.
+Zac has-importance equal-to 6.
 
 Zed is a champion.
 Zed has-gender Male.
@@ -1762,13 +1768,13 @@ Zilean has-importance equal-to 9.
 
 Zoe is a champion.
 Zoe has-gender Female.
-Zoe plays-in Middle.
+Zoe plays-in Middle and plays-in Support.
 Zoe has-species Aspect and has-species Human.
 Zoe uses-resource Mana.
 Zoe has-range-type Ranged.
 Zoe belongs-to Targon.
 Zoe released-in equal-to 2017.
-Zoe has-importance equal-to 7.
+Zoe has-importance equal-to 8.
 
 Zyra is a champion.
 Zyra has-gender Female.
@@ -1779,4 +1785,5 @@ Zyra has-range-type Ranged.
 Zyra belongs-to Ixtal.
 Zyra released-in equal-to 2012.
 Zyra has-importance equal-to 6.
+
 

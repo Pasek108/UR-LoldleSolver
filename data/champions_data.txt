@@ -16,8 +16,7 @@ Ionia
 2011
 
 Female
-Middle,
-Top
+Middle
 Human
 Energy
 Melee
@@ -148,8 +147,6 @@ Zaun
 2009
 
 Male
-Jungle,
-Middle,
 Support
 Human,
 Magically Altered
@@ -213,7 +210,8 @@ Void
 2009
 
 Male
-Middle
+Middle,
+Bottom
 Yordle
 Mana
 Ranged
@@ -328,8 +326,7 @@ Bilgewater
 2010
 
 Male
-Middle,
-Top
+Middle
 Human,
 Magicborn
 Mana
@@ -389,7 +386,8 @@ Bilgewater
 2011
 
 Female
-Top
+Top,
+Jungle
 Human,
 Magically Altered
 Mana
@@ -426,8 +424,7 @@ Piltover
 2009
 
 Male
-Middle,
-Support
+Middle
 Human,
 Magicborn
 Mana
@@ -742,7 +739,6 @@ Demacia
 2010
 
 Male
-Middle,
 Top
 Golem
 Mana
@@ -762,7 +758,7 @@ Void
 2010
 
 Male
-Jungle,
+Top,
 Support
 Spirit
 Mana
@@ -778,6 +774,17 @@ Mana
 Melee
 Ionia
 2009
+
+Female
+Middle,
+Support
+Human,
+Magically Altered
+Mana
+Ranged
+Noxus,
+Piltover
+2025
 
 Male
 Support
@@ -916,7 +923,6 @@ Targon
 2010
 
 Female
-Jungle,
 Support,
 Top
 Yordle
@@ -943,7 +949,6 @@ Ixtal
 2019
 
 Female
-Middle,
 Top
 Human
 Mana
@@ -1130,8 +1135,7 @@ Shurima
 2009
 
 Male
-Jungle,
-Top
+Jungle
 Brackern
 Mana
 Melee
@@ -1139,7 +1143,8 @@ Ixtal
 2011
 
 Male
-Bottom
+Bottom,
+Middle
 Dragon
 Mana
 Ranged
@@ -1176,7 +1181,6 @@ Noxus
 2010
 
 Male
-Jungle,
 Middle
 Human,
 Magicborn
@@ -1225,7 +1229,8 @@ Targon
 2009
 
 Male
-Top
+Top,
+Jungle
 Yordle
 Mana
 Ranged
@@ -1241,8 +1246,7 @@ Shadow Isles
 2013
 
 Female
-Bottom,
-Middle
+Bottom
 Yordle
 Mana
 Ranged
@@ -1310,8 +1314,7 @@ Shurima
 2012
 
 Female
-Bottom,
-Top
+Bottom
 Human
 Mana
 Ranged
@@ -1481,8 +1484,7 @@ Bandle City
 2019
 
 Male
-Jungle,
-Top
+Jungle
 Golem
 Health costs
 Melee
@@ -1528,7 +1530,8 @@ Shurima
 2009
 
 Female
-Middle
+Middle,
+Support
 Aspect,
 Human
 Mana

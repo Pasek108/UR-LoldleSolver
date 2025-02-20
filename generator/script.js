@@ -320,7 +320,7 @@ function getGuessedChampionsData() {
 
       for (let type of ["correct", "partialy", "incorrect"]) {
         if (container.classList.contains(type)) {
-          values.forEach((value) => data[column.replaceAll("-", "_")][type].add(value))
+          values.forEach((value) => data[column.replaceAll("-", "_")][type].add(normalizeStr(value).replaceAll(" ", "-")))
         }
       }
     }
