@@ -36,6 +36,7 @@ Support
 Minotaur
 Mana
 Melee
+Noxus,
 Runeterra
 2009
 
@@ -1430,7 +1431,7 @@ Ionia
 Male
 Middle,
 Support
-God-Warrior
+Baccai
 Mana
 Ranged
 Shurima

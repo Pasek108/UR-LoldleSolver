@@ -1,4 +1,8 @@
-﻿Comment:
+﻿Title: 'League of legends'.
+Author: 'Artur Pas'.
+Namespace: 'http://ontorion.com/namespace'.
+
+Comment:
 ---------------- Gender ----------------.
 Male is a gender.
 Female is a gender.
@@ -42,6 +46,7 @@ Dog is a species.
 Brackern is a species.
 Troll is a species.
 Rat is a species.
+Baccai is a species.
 Cat is a species.
 
 Comment:
@@ -132,9 +137,9 @@ Alistar plays-in Support.
 Alistar has-species Minotaur.
 Alistar uses-resource Mana.
 Alistar has-range-type Melee.
-Alistar belongs-to Runeterra.
+Alistar belongs-to Noxus and belongs-to Runeterra.
 Alistar released-in equal-to 2009.
-Alistar has-importance equal-to 6.
+Alistar has-importance equal-to 7.
 
 Ambessa is a champion.
 Ambessa has-gender Female.
@@ -1659,7 +1664,7 @@ Xayah has-importance equal-to 6.
 Xerath is a champion.
 Xerath has-gender Male.
 Xerath plays-in Middle and plays-in Support.
-Xerath has-species God-Warrior.
+Xerath has-species Baccai.
 Xerath uses-resource Mana.
 Xerath has-range-type Ranged.
 Xerath belongs-to Shurima.
@@ -1785,5 +1790,4 @@ Zyra has-range-type Ranged.
 Zyra belongs-to Ixtal.
 Zyra released-in equal-to 2012.
 Zyra has-importance equal-to 6.
-
 
